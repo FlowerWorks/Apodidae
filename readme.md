@@ -1,11 +1,4 @@
 # Apodidae
-Base on Chenzyyzd CuprumTurbo  
-Open Source under GPL 3.0  
-Wait for V14...  
-We may make a big bounce...  
-Just "Maybe"...   
-Fuck the world if you're rich, otherwise fuck yourself(  
-
 ![GitHub language count](https://img.shields.io/github/languages/count/naranyinyun/Apodidae?style=flat-square)
 ![GitHub top language](https://img.shields.io/github/languages/top/naranyinyun/Apodidae?style=flat-square)
 ![GitHub repo file count](https://img.shields.io/github/directory-file-count/naranyinyun/Apodidae?style=flat-square)
@@ -16,3 +9,9 @@ Fuck the world if you're rich, otherwise fuck yourself(
 ![Magisk](https://img.shields.io/badge/Magisk-Support-green?style=flat-square)
 ![LTS](https://img.shields.io/badge/LTS-True-green?style=flat-square)
 ![GitHub Discussions](https://img.shields.io/github/discussions/naranyinyun/Apodidae?style=flat-square)
+Base on Chenzyyzd CuprumTurbo  
+Open Source under GPL 3.0  
+Wait for V14...  
+We may make a big bounce...  
+Just "Maybe"...   
+Fuck the world if you're rich, otherwise fuck yourself(  
