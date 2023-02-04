@@ -8,7 +8,7 @@
 ![Maintenance](https://img.shields.io/maintenance/yes/2023?style=flat-square)
 ![Magisk](https://img.shields.io/badge/Magisk-Support-green?style=flat-square)
 ![LTS](https://img.shields.io/badge/LTS-True-green?style=flat-square)
-![GitHub Discussions](https://img.shields.io/github/discussions/naranyinyun/Apodidae?style=flat-square)
+![GitHub Discussions](https://img.shields.io/github/discussions/naranyinyun/Apodidae?style=flat-square)  
 Base on Chenzyyzd CuprumTurbo  
 Open Source under GPL 3.0  
 Wait for V14...  
