@@ -1,6 +1,6 @@
 {
 	"name": "Helio_G90/G90T",
-	"author": "chenzyadb",
+	"author": "Nalanyinyun",
 	"configVersion": 3,
 	"cpuPolicy": {
 		"cpu0": 0,
@@ -18,21 +18,21 @@
 		"enable": 1,
 		"freqTablePath": "/proc/ppm/dump_cluster_0_dvfs_table",
 		"cpu_capacity": 420,
-		"lowPowerFreq": 600,
-		"basicFreq": 1000,
+		"lowPowerFreq": 500,
+		"basicFreq": 1375,
 		"expectFreq": 1400,
 		"modelFreq": 2000,
-		"modelPower": 420
+		"modelPower": 360
 	},
 	"policy1_Config": {
 		"enable": 1,
 		"freqTablePath": "/proc/ppm/dump_cluster_1_dvfs_table",
 		"cpu_capacity": 1024,
-		"lowPowerFreq": 700,
-		"basicFreq": 1200,
+		"lowPowerFreq": 774,
+		"basicFreq": 1085,
 		"expectFreq": 1800,
 		"modelFreq": 2050,
-		"modelPower": 1400
+		"modelPower": 1800
 	},
 	"CoCpuGovernor_Config": {
 		"fastSampleTime": 20,
@@ -41,8 +41,8 @@
 	"TasksetHelper_Config": {
 		"enable": 1,
 		"MainThread": {
-			"cpus": "67",
-			"nice": -12
+			"cpus": "0123",
+			"nice": -15
 		},
 		"GameSingleThread": {
 			"cpus": "7",
@@ -50,7 +50,7 @@
 		},
 		"GameMultiThread": {
 			"cpus": "0123456",
-			"nice": -20
+			"nice": -15
 		},
 		"RenderThread": {
 			"cpus": "7",
@@ -58,14 +58,14 @@
 		},
 		"UIThread": {
 			"cpus": "67",
-			"nice": -12
+			"nice": -10
 		},
 		"MediaThread": {
-			"cpus": "0123456",
-			"nice": -16
+			"cpus": "012345",
+			"nice": -12
 		},
 		"WebViewThread": {
-			"cpus": "67",
+			"cpus": "3456",
 			"nice": -12
 		},
 		"ProcessThread": {
@@ -83,14 +83,14 @@
 	},
 	"modeSwitcher": {
 		"powersave": {
-			"powerLimit": 2000,
+			"powerLimit": 1500,
 			"policy0": {
-				"upRateLatency": 120,
-				"downRateDelay": 40
+				"upRateLatency": 200,
+				"downRateDelay": 50
 			},
 			"policy1": {
-				"upRateLatency": 120,
-				"downRateDelay": 40
+				"upRateLatency": 270,
+				"downRateDelay": 60
 			},
 			"boostConfig": {
 				"touch": {
@@ -98,86 +98,86 @@
 					"durationTime": 1000
 				},
 				"swipe": {
-					"boost": 5,
+					"boost": 0,
 					"durationTime": 200
 				},
 				"gesture": {
-					"boost": 10,
+					"boost": 5,
 					"durationTime": 500
 				},
 				"heavyload": {
 					"boost": 10,
-					"durationTime": 2000
+					"durationTime": 3000
 				}
 			}
 		},
 		"balance": {
-			"powerLimit": 3500,
+			"powerLimit": 2200,
 			"policy0": {
-				"upRateLatency": 100,
-				"downRateDelay": 80
+				"upRateLatency": 200,
+				"downRateDelay": 90
 			},
 			"policy1": {
-				"upRateLatency": 100,
-				"downRateDelay": 80
+				"upRateLatency": 230,
+				"downRateDelay":  70
 			},
 			"boostConfig": {
 				"touch": {
-					"boost": 5,
-					"durationTime": 1000
+					"boost": 0,
+					"durationTime": 500
 				},
 				"swipe": {
-					"boost": 10,
+					"boost": 5,
 					"durationTime": 200
 				},
 				"gesture": {
-					"boost": 15,
+					"boost": 7,
 					"durationTime": 500
 				},
 				"heavyload": {
-					"boost": 20,
-					"durationTime": 2000
+					"boost": 15,
+					"durationTime": 3000
 				}
 			}
 		},
 		"performance": {
-			"powerLimit": 5000,
+			"powerLimit": 3300,
 			"policy0": {
-				"upRateLatency": 80,
-				"downRateDelay": 120
+				"upRateLatency": 120,
+				"downRateDelay": 50
 			},
 			"policy1": {
-				"upRateLatency": 80,
-				"downRateDelay": 120
+				"upRateLatency": 100,
+				"downRateDelay": 50
 			},
 			"boostConfig": {
 				"touch": {
-					"boost": 10,
-					"durationTime": 1000
+					"boost": 5,
+					"durationTime": 500
 				},
 				"swipe": {
-					"boost": 15,
-					"durationTime": 200
+					"boost": 10,
+					"durationTime": 500
 				},
 				"gesture": {
-					"boost": 20,
+					"boost": 10,
 					"durationTime": 500
 				},
 				"heavyload": {
-					"boost": 30,
-					"durationTime": 2000
+					"boost": 20,
+					"durationTime": 3000
 				}
 			}
 		},
 		"fast": {
-			"powerLimit": 10000,
+			"powerLimit": 5000,
 			"policy0": {
-				"upRateLatency": 60,
-				"downRateDelay": 160
+				"upRateLatency": 50,
+				"downRateDelay": 40
 			},
 			"policy1": {
-				"upRateLatency": 60,
-				"downRateDelay": 160
+				"upRateLatency": 70,
+				"downRateDelay": 40
 			},
 			"boostConfig": {
 				"touch": {
@@ -185,16 +185,16 @@
 					"durationTime": 1000
 				},
 				"swipe": {
-					"boost": 20,
-					"durationTime": 200
+					"boost": 10,
+					"durationTime": 1000
 				},
 				"gesture": {
-					"boost": 30,
-					"durationTime": 500
+					"boost": 20,
+					"durationTime": 1000
 				},
 				"heavyload": {
 					"boost": 40,
-					"durationTime": 2000
+					"durationTime": 5000
 				}
 			}
 		}
