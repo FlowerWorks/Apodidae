@@ -18,9 +18,9 @@
 		"enable": 1,
 		"freqTablePath": "/proc/ppm/dump_cluster_0_dvfs_table",
 		"cpu_capacity": 284,
-		"lowPowerFreq": 600,
+		"lowPowerFreq": 500,
 		"basicFreq": 1000,
-		"expectFreq": 1600,
+		"expectFreq": 1525,
 		"modelFreq": 2000,
 		"modelPower": 300
 	},
@@ -28,21 +28,21 @@
 		"enable": 1,
 		"freqTablePath": "/proc/ppm/dump_cluster_1_dvfs_table",
 		"cpu_capacity": 1024,
-		"lowPowerFreq": 700,
-		"basicFreq": 1000,
-		"expectFreq": 1800,
+		"lowPowerFreq": 437,
+		"basicFreq": 437,
+		"expectFreq": 2200,
 		"modelFreq": 2600,
-		"modelPower": 1750
+		"modelPower": 1770
 	},
 	"policy2_Config": {
 		"enable": 1,
 		"freqTablePath": "/proc/ppm/dump_cluster_2_dvfs_table",
 		"cpu_capacity": 1024,
-		"lowPowerFreq": 800,
-		"basicFreq": 1000,
-		"expectFreq": 2100,
-		"modelFreq": 2600,
-		"modelPower": 1750
+		"lowPowerFreq": 659,
+		"basicFreq": 659,
+		"expectFreq": 2284,
+		"modelFreq": 3000,
+		"modelPower": 1970
 	},
 	"CoCpuGovernor_Config": {
 		"fastSampleTime": 20,
@@ -93,7 +93,7 @@
 	},
 	"modeSwitcher": {
 		"powersave": {
-			"powerLimit": 2000,
+			"powerLimit": 2050,
 			"policy0": {
 				"upRateLatency": 120,
 				"downRateDelay": 40
@@ -126,7 +126,7 @@
 			}
 		},
 		"balance": {
-			"powerLimit": 3500,
+			"powerLimit": 3000,
 			"policy0": {
 				"upRateLatency": 100,
 				"downRateDelay": 80
@@ -159,7 +159,7 @@
 			}
 		},
 		"performance": {
-			"powerLimit": 5000,
+			"powerLimit": 4150,
 			"policy0": {
 				"upRateLatency": 80,
 				"downRateDelay": 120
