@@ -32,7 +32,7 @@
 		"basicFreq": 1335,
 		"expectFreq": 1985,
 		"modelFreq": 2600,
-		"modelPower": 1750
+		"modelPower": 1770
 	},
 	"policy2_Config": {
 		"enable": 1,
@@ -42,7 +42,7 @@
 		"basicFreq": 1482,
 		"expectFreq": 1985,
 		"modelFreq": 3000,
-		"modelPower": 1950
+		"modelPower": 1970
 	},
 	"CoCpuGovernor_Config": {
 		"fastSampleTime": 20,
