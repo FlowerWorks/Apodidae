@@ -1,6 +1,6 @@
 {
 	"name": "Dimensity1100/1200/1300",
-	"author": "xiahuabeichidiaole",
+	"author": "chenzyadb",
 	"configVersion": 3,
 	"cpuPolicy": {
 		"cpu0": 0,
@@ -19,7 +19,7 @@
 		"freqTablePath": "/proc/ppm/dump_cluster_0_dvfs_table",
 		"cpu_capacity": 284,
 		"lowPowerFreq": 500,
-		"basicFreq": 1450,
+		"basicFreq": 1000,
 		"expectFreq": 1525,
 		"modelFreq": 2000,
 		"modelPower": 300
@@ -28,9 +28,9 @@
 		"enable": 1,
 		"freqTablePath": "/proc/ppm/dump_cluster_1_dvfs_table",
 		"cpu_capacity": 1024,
-		"lowPowerFreq": 400,
-		"basicFreq": 1335,
-		"expectFreq": 1985,
+		"lowPowerFreq": 437,
+		"basicFreq": 437,
+		"expectFreq": 2200,
 		"modelFreq": 2600,
 		"modelPower": 1770
 	},
@@ -38,9 +38,9 @@
 		"enable": 1,
 		"freqTablePath": "/proc/ppm/dump_cluster_2_dvfs_table",
 		"cpu_capacity": 1024,
-		"lowPowerFreq": 600,
-		"basicFreq": 1482,
-		"expectFreq": 1985,
+		"lowPowerFreq": 659,
+		"basicFreq": 659,
+		"expectFreq": 2284,
 		"modelFreq": 3000,
 		"modelPower": 1970
 	},
@@ -93,7 +93,7 @@
 	},
 	"modeSwitcher": {
 		"powersave": {
-			"powerLimit": 1500,
+			"powerLimit": 2050,
 			"policy0": {
 				"upRateLatency": 120,
 				"downRateDelay": 40
@@ -126,7 +126,7 @@
 			}
 		},
 		"balance": {
-			"powerLimit": 2300,
+			"powerLimit": 3000,
 			"policy0": {
 				"upRateLatency": 100,
 				"downRateDelay": 80
@@ -159,7 +159,7 @@
 			}
 		},
 		"performance": {
-			"powerLimit": 3000,
+			"powerLimit": 4150,
 			"policy0": {
 				"upRateLatency": 80,
 				"downRateDelay": 120
