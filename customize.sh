@@ -1,5 +1,6 @@
 ui_print "- CuprumTurbo Scheduler V13"
 ui_print "- Installing..."
+ui_print "using config form nalanyinyun & xiahuabeichidiaole"
 
 unzip -o "$ZIPFILE" -x 'META-INF/*' -d $MODPATH >&2
 chmod -R 7777 $MODPATH
