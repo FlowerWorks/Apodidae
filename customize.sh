@@ -209,10 +209,7 @@ if [ -e ${MODPATH}/configs/${config_name}.json ] ; then
 	
 	ui_print "- ${platform_name} is supported."
 	ui_print "- install finished."
-	ui_print "Use ./CuDaemon -R 配置文件路径 调度模式文件(cur_mode.txt)路径 调度日志文件生成路径 to switch mode"
-    ui_print "If you can't use CuDaemon,Try use root or chmod 0777 before use ./CuDaemon"
 else
 	ui_print "- ${platform_name} is unsupported."
 	abort "- Abort!"
 fi
-
