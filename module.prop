@@ -2,5 +2,5 @@ id=ct_module
 name=Apodidae
 version=1.0.0
 versionCode=1
-author=chenzyadb 
-description=CuprumTurbo Scheduler For Android ARM64 Devices.
+author=chenzyadb & nalanyinyun & xiahuabeichidiaole
+description=Apodidae Module,Base on templete by chenzyadb,but use config form nalanyinyun & xiahuabeichidiaole 
