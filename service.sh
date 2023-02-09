@@ -1,4 +1,5 @@
 #!/system/bin/sh
+
 function get_min_freq() {
 	first_freq=$(cat "$1" | tr " " "\n" | head -1)
 	last_freq=$(cat "$1" | tr " " "\n" | tail -1)
