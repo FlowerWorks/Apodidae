@@ -1,9 +1,9 @@
 ui_print "- CuprumTurbo Scheduler V13"
 ui_print "- Installing..."
-ui_print "using config form nalanyinyun & xiahuabeichidiaol"
-ui_print "if you have any issues of ideas"
-ui_print "please use issues or discussions in github"
-ui_print "for more details,see github.com/naranyinyun/Apodidae"
+ui_print "- using config form nalanyinyun & xiahuabeichidiaol"
+ui_print "- if you have any issues of ideas"
+ui_print "- please use issues or discussions in github"
+ui_print "- for more details,see github.com/naranyinyun/Apodidae"
 
 unzip -o "$ZIPFILE" -x 'META-INF/*' -d $MODPATH >&2
 chmod -R 7777 $MODPATH
@@ -213,7 +213,7 @@ if [ -e ${MODPATH}/configs/${config_name}.json ] ; then
 	
 	ui_print "- ${platform_name} is supported."
 	ui_print "- install finished."
-        ui_print "to switch modes.see Android/data/ct"
+        ui_print "- to switch modes.see Android/data/ct"
 else
 	ui_print "- ${platform_name} is unsupported."
 	abort "- Abort!"
