@@ -435,5 +435,7 @@ fi
 SCRIPT_PATH=$(dirname $0)
 #CuDaemon -R [config] [mode] [log]
 ${SCRIPT_PATH}/CuDaemon -R "${SCRIPT_PATH}/config.json" "/sdcard/Android/ct/cur_mode.txt" "/sdcard/Android/ct/scheduler.log"
+echo "powersave" > /sdcard/Android/ct/cur_mode.txt
+${SCRIPT_PATH}/CuDaemon -R "${SCRIPT_PATH}/config.json" "/sdcard/Android/ct/cur_mode.txt" "/sdcard/Android/ct/scheduler.log"
 
 exit 0
