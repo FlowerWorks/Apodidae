@@ -429,13 +429,10 @@ rm -f /sdcard/.test_file
 
 if [ ! -d /sdcard/Android/ct/ ] ; then
 	mkdir -p /sdcard/Android/ct/
-	echo "balance" > /sdcard/Android/ct/cur_mode.txt
+	echo "powersave" > /sdcard/Android/ct/cur_mode.txt
 fi
 
 SCRIPT_PATH=$(dirname $0)
 #CuDaemon -R [config] [mode] [log]
 ${SCRIPT_PATH}/CuDaemon -R "${SCRIPT_PATH}/config.json" "/sdcard/Android/ct/cur_mode.txt" "/sdcard/Android/ct/scheduler.log"
-echo "powersave" > /sdcard/Android/ct/cur_mode.txt
-${SCRIPT_PATH}/CuDaemon -R "${SCRIPT_PATH}/config.json" "/sdcard/Android/ct/cur_mode.txt" "/sdcard/Android/ct/scheduler.log"
-
 exit 0
