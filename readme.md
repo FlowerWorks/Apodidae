@@ -16,3 +16,5 @@ Apodidae 已经开始 Alpha 测试了,可在 Configs 分支中下载配置文件
 V14很快就来    
 详见 https://apodidae.nalanyinyun.ml/SoC.html  
 本仓库中的三个分支以不同的许可共享文件，请多加留意  
+
+![image](https://raw.githubusercontent.com/naranyinyun/Apodidae/main/IMG_20230211_190615.jpg)
