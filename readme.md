@@ -17,4 +17,4 @@ V14很快就来
 详见 https://apodidae.nalanyinyun.ml/SoC.html  
 本仓库中的三个分支以不同的许可共享文件，请多加留意  
 
-![image](https://raw.githubusercontent.com/naranyinyun/Apodidae/main/01b4546075f049a68d662f1229a0f9ab.png)
+![看不到这张图片代表你没科学上网](https://raw.githubusercontent.com/naranyinyun/Apodidae/main/01b4546075f049a68d662f1229a0f9ab.png)
