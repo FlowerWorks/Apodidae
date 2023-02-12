@@ -27,7 +27,7 @@
         "basicFreq": 437,
         "expectFreq": 2200,
         "modelFreq": 2600,
-        "modelPower": 1750
+        "modelPower": 1950
       },
       "policy2": {
         "cpus": "7-7",
@@ -37,7 +37,7 @@
         "basicFreq": 659,
         "expectFreq": 2284,
         "modelFreq": 3000,
-        "modelPower": 1950
+        "modelPower": 2240
       }
     },
     "powersave": {
@@ -226,7 +226,7 @@
       "upRateLatency": 100
     },
     "balance": {
-      "maxFreq": 532,
+      "maxFreq": 553,
       "perfMargin": 20,
       "upRateLatency": 80
     },
