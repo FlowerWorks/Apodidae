@@ -27,7 +27,7 @@
         "basicFreq": 437,
         "expectFreq": 2200,
         "modelFreq": 2600,
-        "modelPower": 1950
+        "modelPower": 1600
       },
       "policy2": {
         "cpus": "7-7",
