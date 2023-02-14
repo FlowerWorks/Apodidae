@@ -214,11 +214,20 @@ if [ -e ${MODPATH}/configs/${config_name}.json ] ; then
 	ui_print "- ${platform_name} is supported."
 	ui_print "- install finished."
     ui_print "- to switch modes.see Android/data/ct"
-	pm uninstall xyz.chenzyadb.cu_toolbox
-	touch diable /data/adb/modules/asoul_affinity_opt
-	touch diable /data/adb/modules/uperf
-	ui_print "- 自动禁用 Uperf 和 ASOUL,功能冲突,详见官网 Guide"
-	ui_print "- 自动卸载 Cutoolbox,功能冲突,详见详见官网 Guide"
+
+	if [ ! -d "/data/adb/modules/asoul_affinity_opt" ]; then
+		touch disable /data/adb/modules/asoul_affinity_opt 
+		ui_print "已自动禁用ASOUL,功能冲突"
+	else
+		ui_print "......"
+	fi
+
+	if [ ! -d "/data/adb/modules/asoul_affinity_opt" ]; then
+		touch disable /data/adb/modules/uperf
+	else
+		ui_print "......"
+	fi
+	
 else
 	ui_print "- ${platform_name} is unsupported."
 	abort "- Abort!"
