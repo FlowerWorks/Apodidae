@@ -221,7 +221,7 @@
     "slowSampleTime": 40,
     "fastSampleTime": 20,
     "powersave": {
-      "maxFreq": 304,
+      "maxFreq": 402,
       "perfMargin": 15,
       "upRateLatency": 80
     },
