@@ -44,7 +44,7 @@
       "powerLimit": 2000,
       "policy0": {
         "upRateLatency": 200,
-        "perfMargin": 15
+        "perfMargin": 20
       },
       "policy1": {
         "upRateLatency": 250,
@@ -56,8 +56,8 @@
       },
       "freqBurst": {
         "touch": {
-          "boost": 0,
-          "durationTime": 0
+          "boost": 10,
+          "durationTime": 500
         },
         "swipe": {
           "boost": 5,
@@ -188,15 +188,15 @@
       "nice": -16
     },
     "RenderThread": {
-      "cpus": "456",
+      "cpus": "23456",
       "nice": -20
     },
     "UIThread": {
-      "cpus": "01234",
+      "cpus": "012356",
       "nice": -12
     },
     "MediaThread": {
-      "cpus": "01234",
+      "cpus": "0123",
       "nice": -16
     },
     "WebViewThread": {
@@ -221,9 +221,9 @@
     "slowSampleTime": 40,
     "fastSampleTime": 20,
     "powersave": {
-      "maxFreq": 304,
-      "perfMargin": 10,
-      "upRateLatency": 100
+      "maxFreq": 402,
+      "perfMargin": 15,
+      "upRateLatency": 80
     },
     "balance": {
       "maxFreq": 453,
