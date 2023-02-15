@@ -1,5 +1,5 @@
 {
-  "name": "Dimensity700/720/800U/810_V1",
+  "name": "Dimensity700/720/800U/810_V2",
   "author": "XiaHuaBeiChiDiaoLe",
   "configVersion": 4,
   "debug": false,
@@ -31,7 +31,7 @@
       }
     },
     "powersave": {
-      "powerLimit": 1750,
+      "powerLimit": 2150,
       "policy0": {
         "upRateLatency": 120,
         "perfMargin": 10
@@ -60,7 +60,7 @@
       }
     },
     "balance": {
-      "powerLimit": 3000,
+      "powerLimit": 3350,
       "policy0": {
         "upRateLatency": 100,
         "perfMargin": 20

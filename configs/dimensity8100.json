@@ -5,8 +5,8 @@
   "debug": false,
   "CpuGovernor": {
     "enable": true,
-    "slowSampleTime": 50,
-    "fastSampleTime": 30,
+    "slowSampleTime": 40,
+    "fastSampleTime": 20,
     "policy": {
       "policyNum": 3,
       "policy0": {
@@ -43,15 +43,15 @@
     "powersave": {
       "powerLimit": 2000,
       "policy0": {
-        "upRateLatency": 150,
-        "perfMargin": 15
+        "upRateLatency": 200,
+        "perfMargin": 20
       },
       "policy1": {
-        "upRateLatency": 200,
+        "upRateLatency": 250,
         "perfMargin": 10
       },
       "policy2": {
-        "upRateLatency": 250,
+        "upRateLatency": 300,
         "perfMargin": 7
       },
       "freqBurst": {
