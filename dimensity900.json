@@ -1,6 +1,6 @@
 {
-  "name": "Dimensity900/920/930/1080",
-  "author": "chenzyadb",
+  "name": "Dimensity900/920/930/1080_V1",
+  "author": "XiaHuaBeiChiDiaoLe",
   "configVersion": 4,
   "debug": false,
   "CpuGovernor": {
@@ -13,9 +13,9 @@
         "cpus": "0-5",
         "freqTablePath": "/sys/devices/system/cpu/cpu0/cpufreq/scaling_available_frequencies",
         "cpuCapacity": 452,
-        "lowPowerFreq": 600,
-        "basicFreq": 900,
-        "expectFreq": 1500,
+        "lowPowerFreq": 500,
+        "basicFreq": 500,
+        "expectFreq": 1525,
         "modelFreq": 2000,
         "modelPower": 300
       },
@@ -23,15 +23,15 @@
         "cpus": "6-7",
         "freqTablePath": "/sys/devices/system/cpu/cpu6/cpufreq/scaling_available_frequencies",
         "cpuCapacity": 1024,
-        "lowPowerFreq": 700,
-        "basicFreq": 1100,
-        "expectFreq": 2100,
-        "modelFreq": 2400,
-        "modelPower": 1560
+        "lowPowerFreq": 650,
+        "basicFreq": 650,
+        "expectFreq": 2275,
+        "modelFreq": 2600,
+        "modelPower": 1550
       }
     },
     "powersave": {
-      "powerLimit": 2000,
+      "powerLimit": 2150,
       "policy0": {
         "upRateLatency": 120,
         "perfMargin": 10
@@ -60,7 +60,7 @@
       }
     },
     "balance": {
-      "powerLimit": 3500,
+      "powerLimit": 3350,
       "policy0": {
         "upRateLatency": 100,
         "perfMargin": 20
@@ -89,7 +89,7 @@
       }
     },
     "performance": {
-      "powerLimit": 5000,
+      "powerLimit": 4500,
       "policy0": {
         "upRateLatency": 80,
         "perfMargin": 25
@@ -195,22 +195,22 @@
     "slowSampleTime": 40,
     "fastSampleTime": 20,
     "powersave": {
-      "maxFreq": 700,
+      "maxFreq": 385,
       "perfMargin": 10,
       "upRateLatency": 100
     },
     "balance": {
-      "maxFreq": 800,
+      "maxFreq": 580,
       "perfMargin": 20,
       "upRateLatency": 80
     },
     "performance": {
-      "maxFreq": 900,
+      "maxFreq": 780,
       "perfMargin": 25,
       "upRateLatency": 60
     },
     "fast": {
-      "maxFreq": 1000,
+      "maxFreq": 950,
       "perfMargin": 30,
       "upRateLatency": 40
     }
