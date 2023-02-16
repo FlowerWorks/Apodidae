@@ -213,21 +213,7 @@ if [ -e ${MODPATH}/configs/${config_name}.json ] ; then
 	
 	ui_print "- ${platform_name} is supported."
 	ui_print "- install finished."
-    ui_print "- to switch modes.see Android/data/ct"
-
-	if [ ! -d "/data/adb/modules/asoul_affinity_opt" ]; then
-		touch disable /data/adb/modules/asoul_affinity_opt 
-		ui_print "已自动禁用ASOUL,功能冲突"
-	else
-		ui_print "......"
-	fi
-
-	if [ ! -d "/data/adb/modules/asoul_affinity_opt" ]; then
-		touch disable /data/adb/modules/uperf
-	else
-		ui_print "......"
-	fi
-	
+        ui_print "- to switch modes.see Android/data/ct"
 else
 	ui_print "- ${platform_name} is unsupported."
 	abort "- Abort!"
