@@ -213,7 +213,7 @@ if [ -e ${MODPATH}/configs/${config_name}.json ] ; then
 	
 	ui_print "- ${platform_name} is supported."
 	ui_print "- install finished."
-        ui_print "- to switch modes.see Android/data/ct"
+    ui_print "- to switch modes.see Android/data/ct"
 else
 	ui_print "- ${platform_name} is unsupported."
 	abort "- Abort!"
