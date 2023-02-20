@@ -5,8 +5,8 @@
   "debug": false,
   "CpuGovernor": {
     "enable": true,
-    "slowSampleTime": 40,
-    "fastSampleTime": 20,
+    "slowSampleTime": 60,
+    "fastSampleTime": 40,
     "policy": {
       "policyNum": 3,
       "policy0": {
@@ -14,7 +14,7 @@
         "freqTablePath": "/sys/devices/system/cpu/cpu0/cpufreq/scaling_available_frequencies",
         "cpuCapacity": 284,
         "lowPowerFreq": 450,
-        "basicFreq": 1300,
+        "basicFreq": 1500,
         "expectFreq": 1500,
         "modelFreq": 2000,
         "modelPower": 340
@@ -24,7 +24,7 @@
         "freqTablePath": "/sys/devices/system/cpu/cpu4/cpufreq/scaling_available_frequencies",
         "cpuCapacity": 1024,
         "lowPowerFreq": 700,
-        "basicFreq": 1000,
+        "basicFreq": 1200,
         "expectFreq": 1900,
         "modelFreq": 2850,
         "modelPower": 1400
@@ -41,18 +41,18 @@
       }
     },
     "powersave": {
-      "powerLimit": 2000,
+      "powerLimit": 3500,
       "policy0": {
-        "upRateLatency": 200,
+        "upRateLatency": 150,
         "perfMargin": 20
       },
       "policy1": {
-        "upRateLatency": 250,
-        "perfMargin": 10
+        "upRateLatency": 200,
+        "perfMargin": 15
       },
       "policy2": {
-        "upRateLatency": 300,
-        "perfMargin": 7
+        "upRateLatency": 200,
+        "perfMargin": 10
       },
       "freqBurst": {
         "touch": {
@@ -74,26 +74,26 @@
       }
     },
     "balance": {
-      "powerLimit": 3000,
+      "powerLimit": 5000,
       "policy0": {
-        "upRateLatency": 200,
+        "upRateLatency": 100,
         "perfMargin": 20
       },
       "policy1": {
-        "upRateLatency": 230,
-        "perfMargin": 13
+        "upRateLatency": 130,
+        "perfMargin": 20
       },
       "policy2": {
-        "upRateLatency": 300,
-        "perfMargin": 10
+        "upRateLatency": 200,
+        "perfMargin": 15
       },
       "freqBurst": {
         "touch": {
-          "boost": 0,
-          "durationTime": 1000
+          "boost": 20,
+          "durationTime": 400
         },
         "swipe": {
-          "boost": 0,
+          "boost": 10,
           "durationTime": 500
         },
         "gesture": {
@@ -217,7 +217,7 @@
     }
   },
   "MtkGpuGovernor": {
-    "enable": false,
+    "enable": true,
     "slowSampleTime": 40,
     "fastSampleTime": 20,
     "powersave": {
