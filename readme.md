@@ -9,10 +9,40 @@
 ![Magisk](https://img.shields.io/badge/Magisk-Support-green?style=flat-square)
 ![LTS](https://img.shields.io/badge/LTS-True-green?style=flat-square)
 ![GitHub Discussions](https://img.shields.io/github/discussions/naranyinyun/Apodidae?style=flat-square)  
-基于 Chenzyyzd 的 CuprumTurbo-Scheduler     
-我们会在官网更新 SoC 的支持状态      
-**Apodidae** 现在处于长期维护状态，这代表 Apodidae 不会再积极适配其他SoC，除非我们有实机调试         
-详见 https://apodidae.nalanyinyun.ml/SoC.html  
-本仓库中的三个分支以不同的许可共享文件，请多加留意  
-GPL 允许进行传播，但前提是必须附带源代码，附带源代码的最好方式是附上本仓库链接并署名作者 
-![看不到这张图片代表你没科学上网](https://raw.githubusercontent.com/naranyinyun/Apodidae/main/01b4546075f049a68d662f1229a0f9ab.png)
+**使用方法等内容见 [我们的网站](https://apodidae.nalanyinyun.ml/)**  
+
+## 概述
+
+Apodidae 是一个基于 chenzyyzd CuprumTurbo Scheduler 的调度项目，专为 MediaTek 设备优化  
+Apodidae 集成了线程优化器等功能，使用 Apodidae 则无需使用其他模块  
+
+## Apodidae 诞生的目的
+
+纵观目前耳熟能详的调度项目，Uperf，CuprumTurbo Scheduler，Scene 等等
+
+你会发现这些调度都适配了当时市面上大部分 SoC，适配巨多种 SoC 的难度系数巨大，同时这些开发者们还要维护调度本身，所以他们很难在开发调度的同时针对每一款 SoC 进行单独优化
+
+当然，我们不是在否认开发者们的劳动成果，只是维护数量巨大的 SoC 带来的种种困难阻止了每一款 SoC 的单独优化
+
+Apodidae 清楚适配 SoC 的困难，所以 Apodidae 选择了只维护得到关注较少的 MediaTek 设备
+
+(维护调度在 Apodidae 的目的中只是很小一部分，不过更多的我还不能告诉你)
+
+## 所以 Apodidae 在尝试取代其他调度？
+
+当然不是，Apodidae 的两个主要维护者连 C 都不会，只是在维护一些配置文件和 Magisk 模块罢了
+
+顺带一提，Magisk 模块模板也是上游提供的
+
+所以你可以了解到 Apodidae 的技术水平到底有多低 (笑)
+
+所以你也可以轻易的加入 Apodidae 的维护，只要你会 GitHub 的基本操作   
+
+## Apodidae 在维护配置文件，为什么不回馈给上游
+
+我们不能回馈给上游，回馈了上游作者也未必会接受  
+
+首先，Apodidae 的配置文件只在部分设备上进行测试，每个数值都卡在流畅的边缘，这样的配置文件并不普适，如果回馈给上游，他的用户肯定会有相当一部分抱怨卡顿
+
+其次，上游作者亲手开发了项目，他们必然比我们清楚每个参数的作用和意义，所以我们的配置文件必然会存在对某些参数的曲解，这样的东西没法回馈给上游   
+
