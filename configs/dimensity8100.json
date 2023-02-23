@@ -41,7 +41,7 @@
       }
     },
     "powersave": {
-      "powerLimit": 3500,
+      "powerLimit": 2500,
       "policy0": {
         "upRateLatency": 150,
         "perfMargin": 20
@@ -56,7 +56,7 @@
       },
       "freqBurst": {
         "touch": {
-          "boost": 20,
+          "boost": 30,
           "durationTime": 500
         },
         "swipe": {
@@ -74,7 +74,7 @@
       }
     },
     "balance": {
-      "powerLimit": 4000,
+      "powerLimit": 3000,
       "policy0": {
         "upRateLatency": 100,
         "perfMargin": 25
@@ -107,7 +107,7 @@
       }
     },
     "performance": {
-      "powerLimit": 6000,
+      "powerLimit": 5000,
       "policy0": {
         "upRateLatency": 100,
         "perfMargin": 25

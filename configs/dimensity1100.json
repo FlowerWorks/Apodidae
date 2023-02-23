@@ -1,5 +1,5 @@
 {
-  "name": "Dimensity1100/1200/1300_V4",
+  "name": "Dimensity1100/1200/1300_V5",
   "author": "XiaHuaBeiChiDiaoLe",
   "configVersion": 4,
   "debug": false,
@@ -41,7 +41,7 @@
       }
     },
     "powersave": {
-      "powerLimit": 2150,
+      "powerLimit": 1350,
       "policy0": {
         "upRateLatency": 120,
         "perfMargin": 10
@@ -74,7 +74,7 @@
       }
     },
     "balance": {
-      "powerLimit": 2750,
+      "powerLimit": 2150,
       "policy0": {
         "upRateLatency": 100,
         "perfMargin": 20
@@ -107,7 +107,7 @@
       }
     },
     "performance": {
-      "powerLimit": 3950,
+      "powerLimit": 3050,
       "policy0": {
         "upRateLatency": 80,
         "perfMargin": 25

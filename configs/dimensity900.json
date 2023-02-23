@@ -1,12 +1,12 @@
 {
-  "name": "Dimensity900/920/930/1080_V1",
+  "name": "Dimensity900/920/930/1080_V3",
   "author": "XiaHuaBeiChiDiaoLe",
   "configVersion": 4,
   "debug": false,
   "CpuGovernor": {
     "enable": true,
-    "slowSampleTime": 40,
-    "fastSampleTime": 20,
+    "slowSampleTime": 55,
+    "fastSampleTime": 35,
     "policy": {
       "policyNum": 2,
       "policy0": {
@@ -31,7 +31,7 @@
       }
     },
     "powersave": {
-      "powerLimit": 2150,
+      "powerLimit": 1750,
       "policy0": {
         "upRateLatency": 120,
         "perfMargin": 10
@@ -60,7 +60,7 @@
       }
     },
     "balance": {
-      "powerLimit": 3350,
+      "powerLimit": 2550,
       "policy0": {
         "upRateLatency": 100,
         "perfMargin": 20
@@ -89,7 +89,7 @@
       }
     },
     "performance": {
-      "powerLimit": 4500,
+      "powerLimit": 3350,
       "policy0": {
         "upRateLatency": 80,
         "perfMargin": 25
@@ -192,8 +192,8 @@
   },
   "MtkGpuGovernor": {
     "enable": true,
-    "slowSampleTime": 40,
-    "fastSampleTime": 20,
+    "slowSampleTime": 55,
+    "fastSampleTime": 35,
     "powersave": {
       "maxFreq": 385,
       "perfMargin": 10,
