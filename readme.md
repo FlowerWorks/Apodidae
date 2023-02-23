@@ -12,7 +12,6 @@
 ## 概述
 
 Apodidae 是一个基于 chenzyyzd CuprumTurbo Scheduler 的调度项目，专为 MediaTek 设备优化  
-Apodidae 集成了线程优化器等功能，使用 Apodidae 则无需使用其他模块  
 
 ## Apodidae 诞生的目的
 
