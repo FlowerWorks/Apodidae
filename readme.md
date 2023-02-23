@@ -13,6 +13,14 @@
 
 Apodidae 是一个基于 chenzyyzd CuprumTurbo Scheduler 的调度项目，专为 MediaTek 设备优化  
 
+## 避嫌声明
+
+我们不与其他调度竞争，人际关系那点破事我们也懒得搅和   
+
+所以不管别人说什么，我们希望你不要在意，只是选择你想要的就好，你觉得什么好用就用什么   
+
+
+
 ## Apodidae 诞生的目的
 
 纵观目前耳熟能详的调度项目，Uperf，CuprumTurbo Scheduler，Scene 等等
