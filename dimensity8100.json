@@ -14,41 +14,41 @@
         "freqTablePath": "/sys/devices/system/cpu/cpu0/cpufreq/scaling_available_frequencies",
         "cpuCapacity": 284,
         "lowPowerFreq": 450,
-        "basicFreq": 1900,
-        "expectFreq": 1500,
+        "basicFreq": 1500,
+        "expectFreq": 1300,
         "modelFreq": 2000,
-        "modelPower": 340
+        "modelPower": 300
       },
       "policy1": {
         "cpus": "4-6",
         "freqTablePath": "/sys/devices/system/cpu/cpu4/cpufreq/scaling_available_frequencies",
         "cpuCapacity": 1024,
         "lowPowerFreq": 700,
-        "basicFreq": 1000,
+        "basicFreq": 1200,
         "expectFreq": 1900,
         "modelFreq": 2850,
-        "modelPower": 1400
+        "modelPower": 1610
       },
       "policy2": {
         "cpus": "7-7",
         "freqTablePath": "/sys/devices/system/cpu/cpu7/cpufreq/scaling_available_frequencies",
         "cpuCapacity": 1024,
         "lowPowerFreq": 800,
-        "basicFreq": 1200,
+        "basicFreq": 1000,
         "expectFreq": 2200,
         "modelFreq": 2850,
-        "modelPower": 1550
+        "modelPower": 1610
       }
     },
     "powersave": {
-      "powerLimit": 2500,
+      "powerLimit": 2700,
       "policy0": {
         "upRateLatency": 150,
-        "perfMargin": 20
+        "perfMargin": 17
       },
       "policy1": {
         "upRateLatency": 200,
-        "perfMargin": 15
+        "perfMargin": 10
       },
       "policy2": {
         "upRateLatency": 200,
@@ -56,7 +56,7 @@
       },
       "freqBurst": {
         "touch": {
-          "boost": 30,
+          "boost": 15,
           "durationTime": 500
         },
         "swipe": {
@@ -64,7 +64,7 @@
           "durationTime": 300
         },
         "gesture": {
-          "boost": 10,
+          "boost": 15,
           "durationTime": 300
         },
         "heavyload": {
@@ -74,14 +74,14 @@
       }
     },
     "balance": {
-      "powerLimit": 3000,
+      "powerLimit": 3500,
       "policy0": {
         "upRateLatency": 100,
-        "perfMargin": 25
+        "perfMargin": 20
       },
       "policy1": {
         "upRateLatency": 130,
-        "perfMargin": 15
+        "perfMargin": 20
       },
       "policy2": {
         "upRateLatency": 150,
@@ -90,14 +90,14 @@
       "freqBurst": {
         "touch": {
           "boost": 20,
-          "durationTime": 400
+          "durationTime": 500
         },
         "swipe": {
-          "boost": 20,
+          "boost": 10,
           "durationTime": 500
         },
         "gesture": {
-          "boost": 10,
+          "boost": 20,
           "durationTime": 300
         },
         "heavyload": {
@@ -114,11 +114,11 @@
       },
       "policy1": {
         "upRateLatency": 150,
-        "perfMargin": 25
+        "perfMargin": 20
       },
       "policy2": {
         "upRateLatency": 150,
-        "perfMargin": 25
+        "perfMargin": 20
       },
       "freqBurst": {
         "touch": {
@@ -143,7 +143,7 @@
       "powerLimit": 7000,
       "policy0": {
         "upRateLatency": 90,
-        "perfMargin": 30
+        "perfMargin": 40
       },
       "policy1": {
         "upRateLatency": 100,
@@ -176,7 +176,7 @@
   "ThreadSchedOpt": {
     "enable": true,
     "MainThread": {
-      "cpus": "1234",
+      "cpus": "456",
       "nice": -12
     },
     "GameSingleThread": {
@@ -188,41 +188,41 @@
       "nice": -16
     },
     "RenderThread": {
-      "cpus": "23456",
+      "cpus": "7",
       "nice": -20
     },
     "UIThread": {
-      "cpus": "012356",
+      "cpus": "456",
       "nice": -12
     },
     "MediaThread": {
-      "cpus": "0123",
+      "cpus": "012345",
       "nice": -16
     },
     "WebViewThread": {
-      "cpus": "0123",
+      "cpus": "456",
       "nice": -12
     },
     "ProcessThread": {
-      "cpus": "56",
+      "cpus": "456",
       "nice": -8
     },
     "NonRealTimeThread": {
-      "cpus": "012",
+      "cpus": "0123",
       "nice": 0
     },
     "OtherThread": {
-      "cpus": "01234",
+      "cpus": "0123456",
       "nice": -4
     }
   },
   "MtkGpuGovernor": {
     "enable": true,
-    "slowSampleTime": 40,
-    "fastSampleTime": 20,
+    "slowSampleTime": 60,
+    "fastSampleTime": 40,
     "powersave": {
       "maxFreq": 402,
-      "perfMargin": 15,
+      "perfMargin": 20,
       "upRateLatency": 80
     },
     "balance": {
