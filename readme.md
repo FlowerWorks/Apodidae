@@ -13,7 +13,7 @@
 
 Apodidae 是一个基于 chenzyyzd CuprumTurbo Scheduler 的调度项目，专为 MediaTek 设备优化  
 
-我们在 2023.2.5_11:00 至次日经历了超过12个小时的站点终端,原因是 nalanyinyun.ml 已被注销  
+我们在 2023.2.5_11:00 至次日经历了超过12个小时的站点故障,原因是 nalanyinyun.ml 已被注销  
 所有站点均迁移到 nalanyinyun.top,我们无法重定向,还请您刷新一下脑子中的缓存   
 
 ## 避嫌声明
