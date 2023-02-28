@@ -8,7 +8,6 @@
 ![Magisk](https://img.shields.io/badge/Magisk-Support-green?style=flat-square)
 ![GitHub Discussions](https://img.shields.io/github/discussions/naranyinyun/Apodidae?style=flat-square)  
 **使用方法等内容见 [我们的网站](https://apodidae.nalanyinyun.top/)**  
-Exchange: Send Email to nalanyinyun@support.nalanyinyun.top  
 
 ## 概述
 
