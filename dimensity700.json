@@ -1,18 +1,16 @@
 {
-  "name": "Dimensity700/720/800U/810_V4",
+  "name": "Dimensity700/720/800U/810_V5",
   "author": "XiaHuaBeiChiDiaoLe",
-  "configVersion": 4,
+  "configVersion": 5,
   "debug": false,
   "CpuGovernor": {
     "enable": true,
     "slowSampleTime": 55,
     "fastSampleTime": 35,
     "policy": {
-      "policyNum": 2,
       "policy0": {
-        "cpus": "0-5",
-        "freqTablePath": "/proc/ppm/dump_cluster_0_dvfs_table",
-        "cpuCapacity": 452,
+        "cpuCore": "0-5",
+        "perfScale": 100,
         "lowPowerFreq": 500,
         "basicFreq": 500,
         "expectFreq": 1525,
@@ -20,9 +18,8 @@
         "modelPower": 320
       },
       "policy1": {
-        "cpus": "6-7",
-        "freqTablePath": "/proc/ppm/dump_cluster_1_dvfs_table",
-        "cpuCapacity": 1024,
+        "cpuCore": "6-7",
+        "perfScale": 220,
         "lowPowerFreq": 725,
         "basicFreq": 725,
         "expectFreq": 1750,
@@ -195,24 +192,28 @@
     "slowSampleTime": 55,
     "fastSampleTime": 35,
     "powersave": {
-      "maxFreq": 490,
+      "maxFreq": 390,
       "perfMargin": 10,
-      "upRateLatency": 100
+      "upRateLatency": 80,
+      "touchBoost": false
     },
     "balance": {
       "maxFreq": 655,
       "perfMargin": 20,
-      "upRateLatency": 80
+      "upRateLatency": 80,
+      "touchBoost": true
     },
     "performance": {
       "maxFreq": 715,
       "perfMargin": 25,
-      "upRateLatency": 60
+      "upRateLatency": 60,
+      "touchBoost": true
     },
     "fast": {
       "maxFreq": 1068,
       "perfMargin": 30,
-      "upRateLatency": 40
+      "upRateLatency": 40,
+      "touchBoost": true
     }
   }
 }
