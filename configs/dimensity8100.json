@@ -39,7 +39,7 @@
     "powersave": {
       "powerLimit": 2700,
       "policy0": {
-        "upRateLatency": 200,
+        "upRateLatency": 150,
         "perfMargin": 15
       },
       "policy1": {
@@ -47,7 +47,7 @@
         "perfMargin": 10
       },
       "policy2": {
-        "upRateLatency": 150,
+        "upRateLatency": 200,
         "perfMargin": 10
       },
       "freqBurst": {
@@ -72,15 +72,15 @@
     "balance": {
       "powerLimit": 3500,
       "policy0": {
-        "upRateLatency": 150,
+        "upRateLatency": 130,
         "perfMargin": 15
       },
       "policy1": {
-        "upRateLatency": 130,
+        "upRateLatency": 150,
         "perfMargin": 10
       },
       "policy2": {
-        "upRateLatency": 150,
+        "upRateLatency": 170,
         "perfMargin": 10
       },
       "freqBurst": {
@@ -119,7 +119,7 @@
       "freqBurst": {
         "touch": {
           "boost": 20,
-          "durationTime": 1000
+          "durationTime": 500
         },
         "swipe": {
           "boost": 30,
@@ -151,12 +151,12 @@
       },
       "freqBurst": {
         "touch": {
-          "boost": 50,
+          "boost": 20,
           "durationTime": 400
         },
         "swipe": {
-          "boost": 50,
-          "durationTime": 900
+          "boost": 20,
+          "durationTime": 500
         },
         "gesture": {
           "boost": 20,
@@ -214,8 +214,8 @@
   },
   "MtkGpuGovernor": {
     "enable": true,
-    "slowSampleTime": 40,
-    "fastSampleTime": 20,
+    "slowSampleTime": 60,
+    "fastSampleTime": 40,
     "powersave": {
       "maxFreq": 292,
       "perfMargin": 10,
