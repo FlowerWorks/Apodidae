@@ -5,14 +5,14 @@
   "debug": false,
   "CpuGovernor": {
     "enable": true,
-    "slowSampleTime": 55,
-    "fastSampleTime": 35,
+    "slowSampleTime": 50,
+    "fastSampleTime": 30,
     "policy": {
       "policy0": {
         "cpuCore": "0-3",
         "perfScale": 100,
         "lowPowerFreq": 500,
-        "basicFreq": 500,
+        "basicFreq": 900,
         "expectFreq": 1525,
         "modelFreq": 2000,
         "modelPower": 320
@@ -21,116 +21,116 @@
         "cpuCore": "4-6",
         "perfScale": 295,
         "lowPowerFreq": 437,
-        "basicFreq": 437,
+        "basicFreq": 700,
         "expectFreq": 2200,
         "modelFreq": 2600,
-        "modelPower": 1550
+        "modelPower": 1750
       },
       "policy2": {
         "cpuCore": "7-7",
-        "perfScale": 315,
+        "perfScale": 295,
         "lowPowerFreq": 659,
-        "basicFreq": 659,
+        "basicFreq": 1200,
         "expectFreq": 2284,
         "modelFreq": 3000,
-        "modelPower": 2240
+        "modelPower": 1750
       }
     },
     "powersave": {
-      "powerLimit": 1350,
+      "powerLimit": 2000,
       "policy0": {
-        "upRateLatency": 120,
+        "upRateLatency": 150,
         "perfMargin": 10
       },
       "policy1": {
-        "upRateLatency": 120,
-        "perfMargin": 10
+        "upRateLatency": 170,
+        "perfMargin": 6
       },
       "policy2": {
-        "upRateLatency": 120,
-        "perfMargin": 10
-      },
-      "freqBurst": {
-        "touch": {
-          "boost": 0,
-          "durationTime": 0
-        },
-        "swipe": {
-          "boost": 10,
-          "durationTime": 500
-        },
-        "gesture": {
-          "boost": 20,
-          "durationTime": 500
-        },
-        "heavyload": {
-          "boost": 20,
-          "durationTime": 2000
-        }
-      }
-    },
-    "balance": {
-      "powerLimit": 2150,
-      "policy0": {
-        "upRateLatency": 100,
-        "perfMargin": 20
-      },
-      "policy1": {
-        "upRateLatency": 100,
-        "perfMargin": 20
-      },
-      "policy2": {
-        "upRateLatency": 100,
-        "perfMargin": 20
+        "upRateLatency": 150,
+        "perfMargin": 15
       },
       "freqBurst": {
         "touch": {
           "boost": 5,
-          "durationTime": 1000
+          "durationTime": 300
         },
         "swipe": {
-          "boost": 10,
-          "durationTime": 500
+          "boost": 5,
+          "durationTime": 400
         },
         "gesture": {
-          "boost": 20,
-          "durationTime": 500
+          "boost": 5,
+          "durationTime": 300
         },
         "heavyload": {
-          "boost": 20,
+          "boost": 10,
+          "durationTime": 1000
+        }
+      }
+    },
+    "balance": {
+      "powerLimit": 2500,
+      "policy0": {
+        "upRateLatency": 100,
+        "perfMargin": 10
+      },
+      "policy1": {
+        "upRateLatency": 100,
+        "perfMargin": 7
+      },
+      "policy2": {
+        "upRateLatency": 100,
+        "perfMargin": 15
+      },
+      "freqBurst": {
+        "touch": {
+          "boost": 5,
+          "durationTime": 300
+        },
+        "swipe": {
+          "boost": 5,
+          "durationTime": 300
+        },
+        "gesture": {
+          "boost": 5,
+          "durationTime": 300
+        },
+        "heavyload": {
+          "boost": 10,
           "durationTime": 2000
         }
       }
     },
     "performance": {
-      "powerLimit": 3050,
+      "powerLimit": 3500,
       "policy0": {
         "upRateLatency": 80,
-        "perfMargin": 25
+        "perfMargin": 15
       },
       "policy1": {
         "upRateLatency": 80,
-        "perfMargin": 25
+        "perfMargin": 10
       },
       "policy2": {
         "upRateLatency": 80,
-        "perfMargin": 25
+        "perfMargin": 12
       },
       "freqBurst": {
         "touch": {
           "boost": 10,
-          "durationTime": 1000
+          "durationTime": 500
         },
         "swipe": {
-          "boost": 20,
+          "boost": 10,
           "durationTime": 500
         },
         "gesture": {
-          "boost": 30,
+          "boost": 10,
           "durationTime": 500
         },
         "heavyload": {
-          "boost": 30,
+          "boost": 10,
           "durationTime": 2000
         }
       }
@@ -217,7 +217,7 @@
     "slowSampleTime": 55,
     "fastSampleTime": 35,
     "powersave": {
-      "maxFreq": 350,
+      "maxFreq": 400,
       "perfMargin": 10,
       "upRateLatency": 80,
       "touchBoost": false
@@ -226,19 +226,19 @@
       "maxFreq": 532,
       "perfMargin": 20,
       "upRateLatency": 80,
-      "touchBoost": true
+      "touchBoost": false
     },
     "performance": {
       "maxFreq": 705,
       "perfMargin": 25,
       "upRateLatency": 60,
-      "touchBoost": true
+      "touchBoost": false
     },
     "fast": {
       "maxFreq": 886,
       "perfMargin": 30,
       "upRateLatency": 40,
-      "touchBoost": true
+      "touchBoost": false
     }
   }
 }
