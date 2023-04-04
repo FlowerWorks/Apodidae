@@ -185,7 +185,7 @@
     },
     "RenderThread": {
       "cpus": "01267",
-      "nice": -21
+      "nice": -20
     },
     "UIThread": {
       "cpus": "3467",
