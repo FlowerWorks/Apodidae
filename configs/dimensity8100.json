@@ -21,7 +21,7 @@
         "cpuCore": "4-6",
         "perfScale": 260,
         "lowPowerFreq": 700,
-        "basicFreq": 1400,
+        "basicFreq": 900,
         "expectFreq": 1900,
         "modelFreq": 2850,
         "modelPower": 1610
@@ -103,26 +103,26 @@
       }
     },
     "performance": {
-      "powerLimit": 4500,
+      "powerLimit": 4000,
       "policy0": {
         "upRateLatency": 100,
         "perfMargin": 15
       },
       "policy1": {
         "upRateLatency": 130,
-        "perfMargin": 10
+        "perfMargin": 12
       },
       "policy2": {
         "upRateLatency": 140,
-        "perfMargin": 12
+        "perfMargin": 10
       },
       "freqBurst": {
         "touch": {
-          "boost": 15,
+          "boost": 10,
           "durationTime": 300
         },
         "swipe": {
-          "boost": 15,
+          "boost": 10,
           "durationTime": 500
         },
         "gesture": {
