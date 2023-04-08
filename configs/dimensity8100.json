@@ -1,5 +1,5 @@
 {
-  "name": "Dimensity8000/8100",
+  "name": "Dimensity8000/8100_Version.1",
   "author": "Nalanyinyun",
   "configVersion": 5,
   "debug": false,
@@ -40,15 +40,15 @@
       "powerLimit": 3000,
       "policy0": {
         "upRateLatency": 130,
-        "perfMargin": 10
+        "perfMargin": 14
       },
       "policy1": {
         "upRateLatency": 170,
-        "perfMargin": 8
+        "perfMargin": 7
       },
       "policy2": {
-        "upRateLatency": 150,
-        "perfMargin": 15
+        "upRateLatency": 170,
+        "perfMargin": 10
       },
       "freqBurst": {
         "touch": {
@@ -73,7 +73,7 @@
       "powerLimit": 3500,
       "policy0": {
         "upRateLatency": 140,
-        "perfMargin": 16
+        "perfMargin": 15
       },
       "policy1": {
         "upRateLatency": 150,
@@ -103,26 +103,26 @@
       }
     },
     "performance": {
-      "powerLimit": 4000,
+      "powerLimit": 4500,
       "policy0": {
         "upRateLatency": 100,
         "perfMargin": 15
       },
       "policy1": {
         "upRateLatency": 130,
-        "perfMargin": 12
+        "perfMargin": 10
       },
       "policy2": {
         "upRateLatency": 140,
-        "perfMargin": 10
+        "perfMargin": 12
       },
       "freqBurst": {
         "touch": {
-          "boost": 10,
+          "boost": 15,
           "durationTime": 300
         },
         "swipe": {
-          "boost": 10,
+          "boost": 15,
           "durationTime": 500
         },
         "gesture": {
