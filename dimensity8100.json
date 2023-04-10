@@ -213,7 +213,7 @@
     }
   },
   "MtkGpuGovernor": {
-    "enable": false,
+    "enable": true,
     "slowSampleTime": 50,
     "fastSampleTime": 40,
     "powersave": {
