@@ -5,6 +5,30 @@ body:
     attributes:
       label: Bug 描述
       description: 简洁而有力的描述 Bug
-      value: operating system
     validations:
       required: true
+  - type: input
+    attributes: 
+      label: 复现步骤
+      description: 如何复现你描述的 Bug ?
+    validations: 
+      required: true
+  - type: input
+    attributes:
+      label: 预期行为
+      description: 若无 Bug 你认为 Apodidae 改如何工作
+  - type: input
+    attributes:
+      label: 屏幕捕获
+      description: 如果可用，添加一些截图帮助排查问题
+  - type: input
+    attributes:
+      label: 版本信息
+      description: 填写你的 Android 和 Apodidae 版本
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: 补充说明
+      description: 如果有任何补充，填写此字段
+  
