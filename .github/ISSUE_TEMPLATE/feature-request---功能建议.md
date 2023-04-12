@@ -1,9 +1,9 @@
 ---
-name: Feature request | 功能建议
-about: 为 Apodidae 提出关于新功能的建议
-title: ''
+name: Feature request
+about: 为 bili_you 提出关于新功能的建议
+title: '[New Feature]'
 labels: enhancement
-assignees: ''
+assignees: lucinhu
 
 ---
 

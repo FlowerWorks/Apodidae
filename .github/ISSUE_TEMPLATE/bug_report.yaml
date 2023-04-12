@@ -1,0 +1,10 @@
+name: "bug report"
+description: 创建问题报告以帮助 Apodidae 更好
+body:
+  - type: input
+    attributes:
+      label: Bug 描述
+      description: 简洁而有力的描述 Bug
+      value: operating system
+    validations:
+      required: true
