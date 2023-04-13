@@ -1,7 +1,7 @@
 {
   "name": "Helio_G90/G90T",
   "author": "Nalanyinyun",
-  "configVersion": 5,
+  "configVersion": 6,
   "debug": false,
   "CpuGovernor": {
     "enable": true,
@@ -13,6 +13,7 @@
         "perfScale": 100,
         "lowPowerFreq": 500,
         "basicFreq": 1375,
+        "optimalFreq": 1200,
         "expectFreq": 1400,
         "modelFreq": 2000,
         "modelPower": 360
@@ -22,6 +23,7 @@
         "perfScale": 220,
         "lowPowerFreq": 774,
         "basicFreq": 1085,
+        "optimalFreq": 1085,
         "expectFreq": 1800,
         "modelFreq": 2050,
         "modelPower": 1500
