@@ -9,7 +9,7 @@
 ![GitHub Discussions](https://img.shields.io/github/discussions/naranyinyun/Apodidae?style=flat-square)  
 **使用方法等内容见 [我们的网站](https://apodidae.nalanyinyun.top/)**  
 虾滑被吃掉了 和 Naranyinyun 是 Apodidae 和 LilyWorks 在 酷安 的全权代理  
-🎉🎉🎉 Apodidae 下载量达到 5K
+🎉🎉🎉 Apodidae 下载量达到 5.9K
 
 ## 概述
 
