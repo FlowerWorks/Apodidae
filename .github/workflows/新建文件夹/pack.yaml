@@ -1,0 +1,25 @@
+name: Auto Pack
+on:
+    push:
+        branches:
+            - Configs
+jobs:
+    pack:
+        name: pack
+        runs-on: ubuntu-latest
+        steps:
+            - name: Mkdir
+              run: mkdir Apodidae
+              run: cd Apodidae
+            - name: Checkout Source
+              run: git clone -b Configs https://github.com/naranyinyun/Apodidae.git
+            - name: Pack Configs
+              run: tar -cvf Configs.tar --exclude=.git --exclude=Configs.tar --exclude=No_Support *
+            - name: Release
+              uses: ncipollo/release-action@v1
+              with:
+                    draft: true
+
+
+
+
