@@ -3,6 +3,7 @@ on:
   push:
     branches:
       - Configs
+  workflow_dispatch:
 jobs:
   pack:
     name: pack
