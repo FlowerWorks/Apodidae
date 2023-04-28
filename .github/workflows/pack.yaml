@@ -1,4 +1,4 @@
-name: Auto Pack
+name: Auto_Pack
 on:
   push:
     branches:
