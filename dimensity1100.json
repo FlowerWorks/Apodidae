@@ -1,5 +1,5 @@
 {
-  "name": "Dimensity1100/1200/1300_V8",
+  "name": "Dimensity1100/1200/1300_V9",
   "author": "XiaHuaBeiChiDiaoLe",
   "configVersion": 6,
   "debug": false,
@@ -13,7 +13,7 @@
         "perfScale": 100,
         "lowPowerFreq": 500,
         "baseFreq": 1350,
-        "optimalFreq": 1400,
+        "optimalFreq": 1800,
         "modelFreq": 2000,
         "modelPower": 320
       },
@@ -21,8 +21,8 @@
         "cpuCore": [4, 5, 6],
         "perfScale": 295,
         "lowPowerFreq": 437,
-        "baseFreq": 900,
-        "optimalFreq": 1100,
+        "baseFreq": 902,
+        "optimalFreq": 1985,
         "modelFreq": 2600,
         "modelPower": 1550
       },
@@ -30,14 +30,14 @@
         "cpuCore": [7],
         "perfScale": 295,
         "lowPowerFreq": 659,
-        "baseFreq": 1000,
-        "optimalFreq": 1100,
+        "baseFreq": 1108,
+        "optimalFreq": 2284,
         "modelFreq": 3000,
         "modelPower": 2240
       }
     },
     "powersave": {
-      "powerLimit": 2000,
+      "powerLimit": 1500,
       "policy0": {
         "upRateLatency": 150,
         "perfMargin": 10
