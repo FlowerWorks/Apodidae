@@ -17,10 +17,6 @@ jobs:
          run: git clone -b Configs https://github.com/naranyinyun/Apodidae.git
        - name: Pack Configs
          run: tar -cvf Configs.tar --exclude=.git --exclude=Configs.tar --exclude=No_Support *
-       - name: Release
-         uses: ncipollo/release-action@v1
-         with:
-           draft: true
 
 
 
