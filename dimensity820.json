@@ -12,7 +12,7 @@
 		"cpuCore": [0, 1, 2, 3],
 		"perfScale": 100,
 		"lowPowerFreq": 500,
-		"basicFreq": 1350,
+		"baseFreq": 1350,
 		"optimalFreq": 1800,
 		"modelFreq": 2000,
 		"modelPower": 320
@@ -21,7 +21,7 @@
 		"cpuCore": [4, 5, 6, 7],
 		"perfScale": 220,
 		"lowPowerFreq": 774,
-		"basicFreq": 1000,
+		"baseFreq": 1000,
 		"optimalFreq": 2133,
 		"modelFreq": 2600,
 		"modelPower": 1800
