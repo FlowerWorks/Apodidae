@@ -1,0 +1,42 @@
+name: AutoPack
+on:
+    push:
+        tags:
+        - "V*"
+jobs:
+    AutoPack:
+        name: AutoPack
+        runs-on: ubuntu-latest
+
+        steps:
+            - name: InitEnv
+              run: 
+            - name: PackConfigs
+              run: |
+                mkdir ApodidaeWorkFlows
+                cd ApodidaeWorkFlows
+                git clone -b Configs https://github.com/naranyinyun/Apodidae.git ApodidaeConfigs
+                cd ApodidaeConfigs
+                tar -cvf Configs.Apodidae.tar --exclude=.git --exclude=Configs.tar  --exclude=.github *
+            - name: PackModules
+              run: |
+                cd ..
+                git clone -b Magisk https://github.com/naranyinyun/Apodidae.git ApodidaeModule
+                cp -f ApodidaeConfigs/* ApodidaeModule/configs
+                cd ApodidaeModule/configs
+                rm -rf No_Support
+                rm -rf .Github
+                rm -rf .git
+                cd ..
+                zip -r Magisk.Apodidae.zip * -x=".git"
+                cd ..
+            - name: CreateRelease
+              uses: ncipollo/release-action@v1
+              with:
+                artifacts: | 
+                  "ApodidaeModule/Magisk.Apodidae.zip"
+                  "ApodidaeConfigs/Configs.Apodidae.tar"
+                draft: true
+                allowUpdates: true
+              
+
