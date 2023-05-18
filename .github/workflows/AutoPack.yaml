@@ -31,5 +31,6 @@ jobs:
                   "ApodidaeConfigs/Configs.Apodidae.tar"
                 draft: true
                 allowUpdates: true
+                token: ${{secrets.PERSONAL_RTOKEN}}
               
 
