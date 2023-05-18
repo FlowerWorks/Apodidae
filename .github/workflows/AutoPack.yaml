@@ -9,8 +9,6 @@ jobs:
         runs-on: ubuntu-latest
 
         steps:
-            - name: InitEnv
-              run: 
             - name: PackConfigs
               run: |
                 mkdir ApodidaeWorkFlows
