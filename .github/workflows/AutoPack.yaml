@@ -16,11 +16,14 @@ jobs:
                 git clone -b Configs https://github.com/naranyinyun/Apodidae.git ApodidaeConfigs
                 cd ApodidaeConfigs
                 tar -cvf Configs.Apodidae.tar --exclude=.git --exclude=Configs.tar  --exclude=.github *
-            - name: PackModules
+            - name: IntEnv
               run: |
                 cd ..
                 git clone -b Magisk https://github.com/naranyinyun/Apodidae.git ApodidaeModule
-                cp -f ApodidaeConfigs/* ApodidaeModule/configs
+            - name: PackModule
+              uses: GuillaumeFalourd/setup-rsync@v1.1
+            - run: |
+                rysnc -r ApodidaeConfigs/* ApodidaeModule/configs
                 cd ApodidaeModule/configs
                 rm -rf No_Support
                 rm -rf .Github
