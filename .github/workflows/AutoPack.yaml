@@ -16,9 +16,6 @@ jobs:
                 git clone -b Configs https://github.com/naranyinyun/Apodidae.git ApodidaeConfigs
                 cd ApodidaeConfigs
                 tar -cvf Configs.Apodidae.tar --exclude=.git --exclude=Configs.tar  --exclude=.github *
-            - name: PackModule
-              uses: GuillaumeFalourd/setup-rsync@v1.1
-            - run: |
                 cd ..
                 git clone -b Magisk https://github.com/naranyinyun/Apodidae.git ApodidaeModule
                 cp ApodidaeConfigs/{dimensity1000,dimensity1100,dimensity700,dimensity8100,dimensity820,dimensity900,dimensity9000,helio_g80,helio_g90}.json ApodidaeModule/configs
