@@ -21,12 +21,9 @@ jobs:
             - run: |
                 cd ..
                 git clone -b Magisk https://github.com/naranyinyun/Apodidae.git ApodidaeModule
-                cp ApodidaeConfigs/* ApodidaeModule/configs
-                cd ApodidaeModule/configs
-                rm -rf No_Support
-                rm -rf .Github
-                rm -rf .git
-                cd ..
+                cp ApodidaeConfigs/{dimensity1000,dimensity1100,dimensity700,dimensity8100,dimensity820,dimensity900,dimensity9000,helio_g80,helio_g90}.json ApodidaeModule/configs
+                cp ApodidaeConfigs/LICENSE ApodidaeModule/configs
+                cd ApodidaeModule
                 zip -r Magisk.Apodidae.zip * -x=".git"
                 cd ..
             - name: CreateRelease
