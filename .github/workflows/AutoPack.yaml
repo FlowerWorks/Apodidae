@@ -23,7 +23,7 @@ jobs:
             - name: PackModule
               uses: GuillaumeFalourd/setup-rsync@v1.1
             - run: |
-                rysnc -r ApodidaeConfigs/* ApodidaeModule/configs
+                rsync -r ApodidaeConfigs/* ApodidaeModule/configs
                 cd ApodidaeModule/configs
                 rm -rf No_Support
                 rm -rf .Github
