@@ -21,7 +21,7 @@ jobs:
             - run: |
                 cd ..
                 git clone -b Magisk https://github.com/naranyinyun/Apodidae.git ApodidaeModule
-                rsync -r ApodidaeConfigs/* ApodidaeModule/configs
+                rsync -r ApodidaeConfigs/* ApodidaeModule/configs/
                 cd ApodidaeModule/configs
                 rm -rf No_Support
                 rm -rf .Github
