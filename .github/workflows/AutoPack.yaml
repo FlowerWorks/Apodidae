@@ -11,6 +11,7 @@ jobs:
         steps:
             - name: PackConfigs
               run: |
+                pwd
                 mkdir ApodidaeWorkFlows
                 cd ApodidaeWorkFlows
                 git clone -b Configs https://github.com/naranyinyun/Apodidae.git ApodidaeConfigs
@@ -23,7 +24,9 @@ jobs:
                 cd ApodidaeModule
                 zip -r Magisk.Apodidae.zip * -x=".git"
                 cd ..
-            - uses: ncipollo/release-action@v1
+            
+            - name: Release
+              uses: ncipollo/release-action@v1
               with:
                 artifacts: | 
                   "ApodidaeModule/Magisk.Apodidae.zip"
