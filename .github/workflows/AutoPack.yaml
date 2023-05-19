@@ -29,8 +29,8 @@ jobs:
               uses: ncipollo/release-action@v1
               with:
                 artifacts: | 
-                  "ApodidaeModule/Magisk.Apodidae.zip"
-                  "ApodidaeConfigs/Configs.Apodidae.tar"
+                  "/home/runner/work/Apodidae/Apodidae/ApodidaeWorkFlows/ApodidaeModule/Magisk.Apodidae.zip"
+                  "/home/runner/work/Apodidae/Apodidae/ApodidaeWorkFlows/ApodidaeConfigs/Configs.Apodidae.tar"
                 draft: true
                 allowUpdates: true
                 token: ${{secrets.PERSONAL_RTOKEN}}
