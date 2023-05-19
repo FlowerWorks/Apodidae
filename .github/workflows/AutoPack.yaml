@@ -1,11 +1,6 @@
 name: AutoPack
-on:
-    push:
-        tags:
-        - "V*"
-    workflow_dispatch: 
-    
-    
+on: workflow_dispatch
+
 jobs:
     AutoPack:
         name: AutoPack
@@ -27,6 +22,7 @@ jobs:
                 cd ApodidaeModule
                 zip -r Magisk.Apodidae.zip * -x=".git"
                 cd ..
+                ls -R
             - uses: ncipollo/release-action@v1
               with:
                 artifacts: | 
