@@ -1,6 +1,7 @@
 name: AutoPack
 on: 
-    workflow_dispatch:
+    push:
+        tags: "V*"
 
 jobs:
     AutoPack:
