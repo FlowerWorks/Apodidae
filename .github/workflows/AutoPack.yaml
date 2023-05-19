@@ -24,9 +24,7 @@ jobs:
                 cd ApodidaeModule
                 zip -r Magisk.Apodidae.zip * -x=".git"
                 cd ..
-            
-            - name: Release
-              uses: ncipollo/release-action@v1
+            - uses: ncipollo/release-action@v1
               with:
                 artifacts: | 
                   "/home/runner/work/Apodidae/Apodidae/ApodidaeWorkFlows/ApodidaeModule/Magisk.Apodidae.zip"
