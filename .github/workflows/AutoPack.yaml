@@ -16,16 +16,16 @@ jobs:
                 cd ApodidaeWorkFlows
                 git clone -b Configs https://github.com/naranyinyun/Apodidae.git ApodidaeConfigs
                 cd ApodidaeConfigs
-                tar -cvf Configs.Apodidae.tar --exclude=.git --exclude=Configs.tar  --exclude=.github *
+                tar -cvf ConfigsApodidae.tar --exclude=.git --exclude=Configs.tar  --exclude=.github *
                 cd ..
                 git clone -b Magisk https://github.com/naranyinyun/Apodidae.git ApodidaeModule
                 cp ApodidaeConfigs/{dimensity1000,dimensity1100,dimensity700,dimensity8100,dimensity820,dimensity900,dimensity9000,helio_g80,helio_g90}.json ApodidaeModule/configs
                 cp ApodidaeConfigs/LICENSE ApodidaeModule/configs
                 cd ApodidaeModule
-                zip -r Magisk.Apodidae.zip * -x=".git"
+                zip -r MagiskApodidae.zip * -x=".git"
                 cd ..
-                mv /home/runner/work/Apodidae/Apodidae/ApodidaeWorkFlows/ApodidaeModule/Magisk.Apodidae.zip /home/runner/work/Apodidae
-                mv /home/runner/work/Apodidae/Apodidae/ApodidaeWorkFlows/ApodidaeConfigs/Configs.Apodidae.tar /home/runner/work/Apodidae
+                mv /home/runner/work/Apodidae/Apodidae/ApodidaeWorkFlows/ApodidaeModule/MagiskApodidae.zip /home/runner/work/Apodidae
+                mv /home/runner/work/Apodidae/Apodidae/ApodidaeWorkFlows/ApodidaeConfigs/ConfigsApodidae.tar /home/runner/work/Apodidae
                 ls -R
                 pwd
             - name: CreateRelease
@@ -34,7 +34,7 @@ jobs:
                 draft: true
                 token: ${{secrets.PERSONAL_RTOKEN}}
                 files: |
-                  Magisk.Apodidae.zip
-                  Configs.Apodidae.tar
+                  "/home/runner/work/Apodidae/MagiskApodidae.zip"
+                  "/home/runner/work/Apodidae/ConfigsApodidae.tar"
                   
             
