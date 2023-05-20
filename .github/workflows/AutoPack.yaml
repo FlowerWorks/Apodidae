@@ -36,7 +36,7 @@ jobs:
                 draft: true
                 token: ${{secrets.PERSONAL_RTOKEN}}
                 files: |
-                  "/home/runner/work/Apodidae/MagiskApodidae.zip"
-                  "/home/runner/work/Apodidae/ConfigsApodidae.tar"
+                  /home/runner/work/Apodidae/MagiskApodidae.zip
+                  /home/runner/work/Apodidae/ConfigsApodidae.tar
                   
             
