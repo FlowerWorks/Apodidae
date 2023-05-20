@@ -24,17 +24,17 @@ jobs:
                 cd ApodidaeModule
                 zip -r Magisk.Apodidae.zip * -x=".git"
                 cd ..
-                mv /home/runner/work/Apodidae/Apodidae/ApodidaeWorkFlows/ApodidaeModule/Magisk.Apodidae.zip /home/runner/work/Apodidae/Apodidae/ApodidaeWorkFlows
-                mv /home/runner/work/Apodidae/Apodidae/ApodidaeWorkFlows/ApodidaeConfigs/Configs.Apodidae.tar /home/runner/work/Apodidae/Apodidae/ApodidaeWorkFlows/
+                mv /home/runner/work/Apodidae/Apodidae/ApodidaeWorkFlows/ApodidaeModule/Magisk.Apodidae.zip /home/runner/work/Apodidae
+                mv /home/runner/work/Apodidae/Apodidae/ApodidaeWorkFlows/ApodidaeConfigs/Configs.Apodidae.tar /home/runner/work/Apodidae
                 ls -R
                 pwd
-            - uses: ncipollo/release-action@v1
-              with:
-                artifacts: | 
-                  "/home/runner/work/Apodidae/Apodidae/ApodidaeWorkFlows/ApodidaeModule/Magisk.Apodidae.zip"
-                  "/home/runner/work/Apodidae/Apodidae/ApodidaeWorkFlows/ApodidaeConfigs/Configs.Apodidae.tar"
-                  "/home/runner/work/Apodidae/Apodidae/ApodidaeWorkFlows/Configs.Apodidae.tar"
-                  "/home/runner/work/Apodidae/Apodidae/ApodidaeWorkFlows/Magisk.Apodidae.zip"
+            - name: CreateRelease
+              uses: softprops/action-gh-release@v0.1.15
+              with: 
                 draft: true
-                allowUpdates: true
                 token: ${{secrets.PERSONAL_RTOKEN}}
+                files: |
+                  Magisk.Apodidae.zip
+                  Configs.Apodidae.tar
+                  
+            
