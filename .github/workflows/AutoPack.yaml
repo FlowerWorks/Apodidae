@@ -26,8 +26,10 @@ jobs:
                 cd ..
                 mv /home/runner/work/Apodidae/Apodidae/ApodidaeWorkFlows/ApodidaeModule/MagiskApodidae.zip /home/runner/work/Apodidae
                 mv /home/runner/work/Apodidae/Apodidae/ApodidaeWorkFlows/ApodidaeConfigs/ConfigsApodidae.tar /home/runner/work/Apodidae
-                ls -R
-                pwd
+                cd /home/runner/work/Apodidae
+                ls -d
+                realpath MagiskApodidae.zip
+                realpath ConfigsApodidae.tar
             - name: CreateRelease
               uses: softprops/action-gh-release@v0.1.15
               with: 
