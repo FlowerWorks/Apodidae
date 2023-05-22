@@ -6,7 +6,8 @@
 ![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/naranyinyun/Apodidae?include_prereleases&style=flat-square)
 ![Maintenance](https://img.shields.io/maintenance/yes/2023?style=flat-square)
 ![Magisk](https://img.shields.io/badge/Magisk-Support-green?style=flat-square)
-![GitHub Discussions](https://img.shields.io/github/discussions/naranyinyun/Apodidae?style=flat-square)  
+![GitHub Discussions](https://img.shields.io/github/discussions/naranyinyun/Apodidae?style=flat-square)
+![GitHub Workflow Status (with branch)](https://img.shields.io/github/actions/workflow/status/Naranyinyun/Apodidae/AutoPack.yaml?style=flat-square)  
 **使用方法等内容见 [我们的网站](https://apodidae.nalanyinyun.top/)**  
 虾滑被吃掉了 和 Naranyinyun 是 Apodidae 和 LilyWorks 在 酷安 的全权代理  
 🎉🎉🎉 Apodidae 下载量达到 6.3K
