@@ -19,13 +19,14 @@ jobs:
                 tar -cvf ConfigsApodidae.tar --exclude=.git --exclude=Configs.tar  --exclude=.github *
                 cd ..
                 git clone -b Magisk https://github.com/naranyinyun/Apodidae.git ApodidaeModule
-                cp ApodidaeConfigs/{dimensity1000,dimensity1100,dimensity700,dimensity8100,dimensity820,dimensity900,dimensity9000,helio_g80,helio_g90}.json ApodidaeModule/configs
+                cp ApodidaeConfigs/{dimensity1000,dimensity1100,dimensity700,dimensity8100,dimensity820,dimensity900,dimensity9000,helio_g80,helio_g90,tegra_x1}.json ApodidaeModule/configs
                 cp ApodidaeConfigs/LICENSE ApodidaeModule/configs
                 cd ApodidaeModule
                 zip -r MagiskApodidae.zip * -x=".git"
                 cd ..
                 mv /home/runner/work/Apodidae/Apodidae/ApodidaeWorkFlows/ApodidaeModule/MagiskApodidae.zip /home/runner/work/Apodidae
                 mv /home/runner/work/Apodidae/Apodidae/ApodidaeWorkFlows/ApodidaeConfigs/ConfigsApodidae.tar /home/runner/work/Apodidae
+                mv /home/runner/work/Apodidae/Apodidae/ApodidaeWorkFlows/ApodidaeConfigs/changelod.md /home/runne/work/Apodidae
                 cd /home/runner/work/Apodidae
                 ls -d
                 realpath MagiskApodidae.zip
@@ -38,5 +39,6 @@ jobs:
                 files: |
                   /home/runner/work/Apodidae/MagiskApodidae.zip
                   /home/runner/work/Apodidae/ConfigsApodidae.tar
+                body_path: /home/runner/work/Apodidae/changelog.md
                   
             
