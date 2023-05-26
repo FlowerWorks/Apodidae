@@ -26,7 +26,7 @@ jobs:
                 cd ..
                 mv /home/runner/work/Apodidae/Apodidae/ApodidaeWorkFlows/ApodidaeModule/MagiskApodidae.zip /home/runner/work/Apodidae
                 mv /home/runner/work/Apodidae/Apodidae/ApodidaeWorkFlows/ApodidaeConfigs/ConfigsApodidae.tar /home/runner/work/Apodidae
-                mv /home/runner/work/Apodidae/Apodidae/ApodidaeWorkFlows/ApodidaeConfigs/changelog.md /home/runne/work/Apodidae
+                mv /home/runner/work/Apodidae/Apodidae/ApodidaeWorkFlows/ApodidaeConfigs/changelog.md /home/runner/work/Apodidae
                 cd /home/runner/work/Apodidae
                 ls -d
                 realpath MagiskApodidae.zip
