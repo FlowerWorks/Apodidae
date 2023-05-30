@@ -42,7 +42,7 @@ jobs:
                 webdav_address: ${{secrets.WEBDAV_URL}}
                 webdav_username: ${{secrets.WEDAV_USERNAME}}
                 webdav_password: ${{secrets.WEDAV_PASSWORD}}
-                webdav_upload_path: /ApodidaeMirror
+                webdav_upload_path: /
                 files: |
                   /home/runner/work/Apodidae/MagiskApodidae.zip
                   /home/runner/work/Apodidae/ConfigsApodidae.tar
