@@ -11,7 +11,6 @@ jobs:
         steps:
             - name: PackConfigs
               run: |
-                pwd
                 mkdir ApodidaeWorkFlows
                 cd ApodidaeWorkFlows
                 git clone -b Configs https://github.com/naranyinyun/Apodidae.git ApodidaeConfigs
@@ -28,17 +27,26 @@ jobs:
                 mv /home/runner/work/Apodidae/Apodidae/ApodidaeWorkFlows/ApodidaeConfigs/ConfigsApodidae.tar /home/runner/work/Apodidae
                 mv /home/runner/work/Apodidae/Apodidae/ApodidaeWorkFlows/ApodidaeConfigs/changelog.md /home/runner/work/Apodidae
                 cd /home/runner/work/Apodidae
-                ls -d
-                realpath MagiskApodidae.zip
-                realpath ConfigsApodidae.tar
             - name: CreateRelease
               uses: softprops/action-gh-release@v0.1.15
               with: 
-                draft: false
+                draft: true
                 token: ${{secrets.PERSONAL_RTOKEN}}
                 files: |
                   /home/runner/work/Apodidae/MagiskApodidae.zip
                   /home/runner/work/Apodidae/ConfigsApodidae.tar
                 body_path: /home/runner/work/Apodidae/changelog.md
+            - name: UploadMirror
+              uses: bxb100/action-upload@v0.0.2
+              with: 
+                provider: webdav
+                provider_options: |
+                  username: ${{secrets.WEDAV_USERNAME}}
+                  password: ${{secrets.WEDAV_PASSWORD}}
+                  root: /dav/ApodidaeMirror
+                flatten: |
+                  /home/runner/work/Apodidae/MagiskApodidae.zip
+                  /home/runner/work/Apodidae/ConfigsApodidae.tar
+
                   
             
