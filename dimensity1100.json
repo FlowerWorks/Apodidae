@@ -1,5 +1,5 @@
 {
-  "name": "Dimensity1100/1200/1300_Complex1",
+  "name": "Dimensity1100/1200/1300_Complex2",
   "author": "XiaHuaBeiChiDiaoLe",
   "configVersion": 6,
   "debug": false,
@@ -12,7 +12,7 @@
         "cpuCore": [0, 1, 2, 3],
         "perfScale": 100,
         "lowPowerFreq": 500,
-        "baseFreq": 1350,
+        "baseFreq": 1250,
         "optimalFreq": 1800,
         "modelFreq": 2000,
         "modelPower": 350
@@ -21,7 +21,7 @@
         "cpuCore": [4, 5, 6],
         "perfScale": 295,
         "lowPowerFreq": 437,
-        "baseFreq": 902,
+        "baseFreq": 1335,
         "optimalFreq": 1985,
         "modelFreq": 2600,
         "modelPower": 1550
@@ -30,7 +30,7 @@
         "cpuCore": [7],
         "perfScale": 295,
         "lowPowerFreq": 659,
-        "baseFreq": 1108,
+        "baseFreq": 1482,
         "optimalFreq": 2284,
         "modelFreq": 3000,
         "modelPower": 2240
