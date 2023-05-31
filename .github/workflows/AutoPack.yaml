@@ -30,7 +30,7 @@ jobs:
             - name: CreateRelease
               uses: softprops/action-gh-release@v0.1.15
               with: 
-                draft: true
+                draft: false
                 token: ${{secrets.PERSONAL_RTOKEN}}
                 files: |
                   /home/runner/work/Apodidae/MagiskApodidae.zip
