@@ -10,7 +10,7 @@
 ![GitHub Workflow Status (with branch)](https://img.shields.io/github/actions/workflow/status/Naranyinyun/Apodidae/AutoPack.yaml?style=flat-square)  
 **使用方法等内容见 [我们的网站](https://apodidae.nalanyinyun.top/)**  
 
-**LilyWorks 祝诸位考生高考顺利，金榜题名!** 
+**LilyWorks 预祝诸位考生金榜题名!** 
 >明年此日青云去，却笑人间举子忙
 
 ## 加注 关于捐赠
