@@ -1,5 +1,5 @@
 {
-  "name": "Dimensity1100/1200/1300_Complex2",
+  "name": "Dimensity1100/1200/1300_Complex3",
   "author": "XiaHuaBeiChiDiaoLe",
   "configVersion": 6,
   "debug": false,
@@ -40,15 +40,15 @@
       "powerLimit": 1500,
       "policy0": {
         "upRateLatency": 150,
-        "perfMargin": 10
+        "perfMargin": 13
       },
       "policy1": {
         "upRateLatency": 170,
-        "perfMargin": 6
+        "perfMargin": 10
       },
       "policy2": {
-        "upRateLatency": 150,
-        "perfMargin": 15
+        "upRateLatency": 170,
+        "perfMargin": 7
       },
       "freqBurst": {
         "touch": {
@@ -73,14 +73,14 @@
       "powerLimit": 2200,
       "policy0": {
         "upRateLatency": 100,
-        "perfMargin": 10
+        "perfMargin": 20
       },
       "policy1": {
-        "upRateLatency": 100,
-        "perfMargin": 7
+        "upRateLatency": 120,
+        "perfMargin": 17
       },
       "policy2": {
-        "upRateLatency": 100,
+        "upRateLatency": 130,
         "perfMargin": 15
       },
       "freqBurst": {
@@ -106,15 +106,15 @@
       "powerLimit": 2900,
       "policy0": {
         "upRateLatency": 80,
-        "perfMargin": 15
+        "perfMargin": 17
       },
       "policy1": {
         "upRateLatency": 80,
-        "perfMargin": 10
+        "perfMargin": 13
       },
       "policy2": {
         "upRateLatency": 80,
-        "perfMargin": 12
+        "perfMargin": 10
       },
       "freqBurst": {
         "touch": {
