@@ -9,17 +9,12 @@
 ![GitHub Discussions](https://img.shields.io/github/discussions/naranyinyun/Apodidae?style=flat-square)
 ![GitHub Workflow Status (with branch)](https://img.shields.io/github/actions/workflow/status/Naranyinyun/Apodidae/AutoPack.yaml?style=flat-square)  
 **使用方法等内容见 [我们的网站](https://apodidae.nalanyinyun.top/)**  
-## 加注 关于捐赠
 
-Apodidae 目前除运营项目的正常资金外不接受任何其他用途的捐赠
+🎉🎉🎉 LilyWorks 祝诸位中考生金榜题名!
 
-2024 项目运营所需资金如下
-
-- [x] Cloudflare 0$=0¥ 
-
-
-- [x] Servers 0$=0¥
-- [ ] Domain 4.88$=33.7¥
+>昔日龌龊不足夸 今朝放荡思无涯
+>
+>春风得意马蹄疾 一日看尽长安花
 
 ## 概述
 
