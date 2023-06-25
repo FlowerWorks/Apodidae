@@ -16,6 +16,8 @@
 >
 >春风得意马蹄疾 一日看尽长安花
 
+编者按: 不想考了
+
 ## 概述
 
 Apodidae 是一个基于 chenzyyzd CuprumTurbo Scheduler 的调度项目，专为 MediaTek 设备优化  
