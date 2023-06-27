@@ -10,13 +10,7 @@
 ![GitHub Workflow Status (with branch)](https://img.shields.io/github/actions/workflow/status/Naranyinyun/Apodidae/AutoPack.yaml?style=flat-square)  
 **使用方法等内容见 [我们的网站](https://apodidae.nalanyinyun.top/)**  
 
-🎉🎉🎉 LilyWorks 祝诸位中考生金榜题名!
-
->昔日龌龊不足夸 今朝放荡思无涯
->
->春风得意马蹄疾 一日看尽长安花
-
-编者按: 不想考了
+🎉🎉🎉 2023 年 沈阳市中考圆满结束!
 
 ## 概述
 
