@@ -10,6 +10,9 @@
 ![GitHub Workflow Status (with branch)](https://img.shields.io/github/actions/workflow/status/Naranyinyun/Apodidae/AutoPack.yaml?style=flat-square)  
 **使用方法等内容见 [我们的网站](https://apodidae.nalanyinyun.top/)**  
 
+再见!  
+Farewell!
+
 ## 概述
 
 Apodidae 是一个基于 chenzyyzd CuprumTurbo Scheduler 的调度项目，专为 MediaTek 设备优化  
