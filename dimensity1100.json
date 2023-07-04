@@ -1,5 +1,5 @@
 {
-  "name": "Dimensity1100/1200/1300_Complex3",
+  "name": "Dimensity1100/1200/1300_Complex5",
   "author": "XiaHuaBeiChiDiaoLe",
   "configVersion": 6,
   "debug": false,
@@ -12,7 +12,7 @@
         "cpuCore": [0, 1, 2, 3],
         "perfScale": 100,
         "lowPowerFreq": 500,
-        "baseFreq": 1250,
+        "baseFreq": 1350,
         "optimalFreq": 1800,
         "modelFreq": 2000,
         "modelPower": 350
@@ -21,7 +21,7 @@
         "cpuCore": [4, 5, 6],
         "perfScale": 295,
         "lowPowerFreq": 437,
-        "baseFreq": 1335,
+        "baseFreq": 1162,
         "optimalFreq": 1985,
         "modelFreq": 2600,
         "modelPower": 1550
@@ -40,15 +40,15 @@
       "powerLimit": 1500,
       "policy0": {
         "upRateLatency": 150,
-        "perfMargin": 13
+        "perfMargin": 17
       },
       "policy1": {
         "upRateLatency": 170,
-        "perfMargin": 10
+        "perfMargin": 13
       },
       "policy2": {
-        "upRateLatency": 170,
-        "perfMargin": 7
+        "upRateLatency": 190,
+        "perfMargin": 11
       },
       "freqBurst": {
         "touch": {
