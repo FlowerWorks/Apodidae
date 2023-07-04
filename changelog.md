@@ -1,7 +1,11 @@
 ### What's new?
-- Cancel MTD1100&1200 CPU7 preferential in balance&powersave  
+- Improve MTD1200
+- Improve MTD9000
+
+### Note
+- Improve MTD1200 and MTD9000 is commit by @xiahuabeichidiaole
 ---
-**Full Changelog**: https://github.com/naranyinyun/Apodidae/compare/V3.3.10...V3.3.11
+**Full Changelog**: https://github.com/naranyinyun/Apodidae/compare/V3.4.11...V3.4.12
 
 ### Download
 Mirrors:
