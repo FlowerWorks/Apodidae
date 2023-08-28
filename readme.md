@@ -13,6 +13,9 @@
 再见!  
 Farewell!
 
+也许我们会回来?
+May we back to maintain?
+
 ## 概述
 
 Apodidae 是一个基于 chenzyyzd CuprumTurbo Scheduler 的调度项目，专为 MediaTek 设备优化  
