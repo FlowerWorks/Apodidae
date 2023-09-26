@@ -1,13 +1,9 @@
 ### What's new?
-- Improve MTD1200
-- Improve MTD9000
-
+- Update MTD8100 to V16.
 ### Note
-- Improve MTD1200 and MTD9000 is commit by @xiahuabeichidiaole
+- Sunflower SIG decides to continue maintain the Apodidae, but we may slowly to respond and update.
 ---
-**Full Changelog**: https://github.com/naranyinyun/Apodidae/compare/V3.4.11...V3.4.12
+**Full Changelog**: https://github.com/naranyinyun/Apodidae/compare/V3.4.11...V4.0.1
 
 ### Download
-Mirrors:
-NSMP: 
-> https://mirror.nalanyinyun.top/ApodidaeMirror
+All the Mirrors are not available.
