@@ -36,16 +36,6 @@ jobs:
                   /home/runner/work/Apodidae/MagiskApodidae.zip
                   /home/runner/work/Apodidae/ConfigsApodidae.tar
                 body_path: /home/runner/work/Apodidae/changelog.md
-            - name: UploadMirror
-              uses: bxb100/action-upload-webdav@v0.0.6
-              with: 
-                webdav_address: ${{secrets.WEBDAV_URL}}
-                webdav_username: ${{secrets.WEDAV_USERNAME}}
-                webdav_password: ${{secrets.WEDAV_PASSWORD}}
-                webdav_upload_path: ./
-                files: |
-                  /home/runner/work/Apodidae/MagiskApodidae.zip
-                  /home/runner/work/Apodidae/ConfigsApodidae.tar
 
                   
             
