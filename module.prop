@@ -1,6 +1,6 @@
 id=ct_module
-name=Apodidae
-version=V3.3.6
-versionCode=3
-author=chenzyadb & nalanyinyun & xiahuabeichidiaole
-description=Apodidae Module, Base on templete by chenzyadb, but use config form nalanyinyun & xiahuabeichidiaole 
+name=Apodidae on Magisk
+version=v16
+versionCode=16
+author=chenzyadb & Sunflower SIG(FlowerWorks)
+description=Apodidae for Android Decices.
