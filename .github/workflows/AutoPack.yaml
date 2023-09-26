@@ -18,7 +18,7 @@ jobs:
                 tar -cvf ConfigsApodidae.tar --exclude=.git --exclude=Configs.tar  --exclude=.github *
                 cd ..
                 git clone -b Magisk https://github.com/naranyinyun/Apodidae.git ApodidaeModule
-                cp ApodidaeConfigs/{dimensity1000,dimensity1100,dimensity700,dimensity8100,dimensity820,dimensity900,dimensity9000,helio_g80,helio_g90,tegra_x1}.json ApodidaeModule/configs
+                cp ApodidaeConfigs/{dimensity1000,dimensity1100,dimensity700,dimensity8100,dimensity820,dimensity900,dimensity9000,helio_g80,helio_g90,tegra_x1}.json ApodidaeModule/configs 2>/dev/null || :
                 cp ApodidaeConfigs/LICENSE ApodidaeModule/configs
                 cd ApodidaeModule
                 zip -r MagiskApodidae.zip * -x=".git"
