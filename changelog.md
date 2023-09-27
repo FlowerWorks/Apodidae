@@ -1,5 +1,6 @@
 ### What's new?
 - Update MTD1100 to V16
+- Update Helio G90T to V16
 ### Note
 - We may stop stop some support of SoC, PLEASE VOTE TO SHOW YOUR VIEWPOINT.
 ---
