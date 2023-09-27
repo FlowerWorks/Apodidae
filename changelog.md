@@ -1,7 +1,7 @@
 ### What's new?
-- Update MTD8100 to V16.
+- Update MTD1100 to V16
 ### Note
-- Sunflower SIG decides to continue maintain the Apodidae, but we may slowly to respond and update.
+- We may stop stop some support of SoC, PLEASE VOTE TO SHOW YOUR VIEWPOINT.
 ---
 **Full Changelog**: https://github.com/naranyinyun/Apodidae/compare/V3.4.11...V4.0.1
 
