@@ -1,12 +1,11 @@
 # Apodidae
 ![Apodidae banner](FlowerWorksApodidae_20231009_231420_0000.png)  
 
-![GitHub all releases](https://img.shields.io/github/downloads/naranyinyun/Apodidae/total?style=flat-square)
-![GitHub](https://img.shields.io/github/license/naranyinyun/Apodidae?style=flat-square)
-![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/naranyinyun/Apodidae?include_prereleases&style=flat-square)
-![Maintenance](https://img.shields.io/maintenance/yes/2023?style=flat-square)
-![Magisk](https://img.shields.io/badge/Magisk-Support-green?style=flat-square)
-![GitHub Workflow Status (with branch)](https://img.shields.io/github/actions/workflow/status/Naranyinyun/Apodidae/AutoPack.yaml?style=flat-square)  
+![GitHub License](https://img.shields.io/github/license/FlowerWorks/Apodidae?style=for-the-badge)
+![Static Badge](https://img.shields.io/badge/Maintain-Sunflower-blue?style=for-the-badge)
+![Static Badge](https://img.shields.io/badge/Powered_by_FlowerWorks-A21538?style=for-the-badge)
+![Static Badge](https://img.shields.io/badge/Apodidae_Extend-8A2BE2?style=for-the-badge)
+![Static Badge](https://img.shields.io/badge/Code_Review-Lavender_Publish-C380EC?style=for-the-badge)
 **使用方法等内容见 [我们的网站](https://apodidae.nalanyinyun.top/)**  
 ## 概述
 
