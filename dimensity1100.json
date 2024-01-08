@@ -1,12 +1,12 @@
 {
-  "name": "Dimensity1100/1200/1300_Complex7",
+  "name": "Dimensity1100/1200/1300_Strong-One",
   "author": "XiaHuaBeiChiDiaoLe",
-  "configVersion": 8,
+  "configVersion": 9,
   "CpuGovernor": {
     "enable": true,
     "params": {
-      "activeRateHz": 55,
-      "idleRateHz": 35,
+      "activeRateHz": 50,
+      "idleRateHz": 30,
       "minFreqStep": 200
     },
     "policies": [
@@ -14,13 +14,13 @@
         "coreNum": 4,
         "perfScale": 100,
         "lowPowerFreq": 500,
-        "optimalFreq": 1000,
+        "optimalFreq": 1450,
         "modelFreq": 2000,
         "modelPower": 340
       },
       {
         "coreNum": 3,
-        "perfScale": 295,
+        "perfScale": 250,
         "lowPowerFreq": 437,
         "optimalFreq": 2200,
         "modelFreq": 2600,
@@ -28,7 +28,7 @@
       },
       {
         "coreNum": 1,
-        "perfScale": 295,
+        "perfScale": 260,
         "lowPowerFreq": 659,
         "optimalFreq": 2284,
         "modelFreq": 3000,
@@ -37,214 +37,172 @@
     ],
     "modes": {
       "powersave": {
-        "powerLimit": 1700,
+        "powerLimit": 2000,
         "perfMargin": [
-          17,
           15,
-          13
+          13,
+          11
         ],
         "upRateLatency": 1000,
+        "overHeatTemp": 80,
+        "burstCapacity": 8000,
+        "recoverTime": 2000,
         "freqBurst": {
           "none": {
             "durationTime": 0,
-            "unlimitPower": false,
             "lowLatency": false,
             "extraMargin": 0,
             "boost": 0
           },
           "tap": {
             "durationTime": 1000,
-            "unlimitPower": false,
             "lowLatency": false,
             "extraMargin": 0,
             "boost": 20
           },
           "swipe": {
             "durationTime": 500,
-            "unlimitPower": false,
             "lowLatency": false,
             "extraMargin": 10,
             "boost": 0
           },
           "gesture": {
             "durationTime": 1000,
-            "unlimitPower": false,
             "lowLatency": false,
             "extraMargin": 20,
             "boost": 20
           },
           "heavyload": {
             "durationTime": 2000,
-            "unlimitPower": true,
             "lowLatency": false,
             "extraMargin": 20,
             "boost": 0
           },
           "jank": {
             "durationTime": 0,
-            "unlimitPower": false,
             "lowLatency": false,
             "extraMargin": 0,
             "boost": 0
           },
           "bigJank": {
             "durationTime": 100,
-            "unlimitPower": true,
             "lowLatency": false,
             "extraMargin": 0,
             "boost": 40
           }
-        },
-        "heatControl": [
-          {
-            "cpuTemp": 95,
-            "maxPower": 2000
-          }
-        ]
+        }
       },
       "balance": {
-        "powerLimit": 2200,
+        "powerLimit": 2500,
         "perfMargin": [
-          21,
-          23,
-          25
+          17,
+          19,
+          21
         ],
         "upRateLatency": 800,
+        "overHeatTemp": 80,
+        "burstCapacity": 12000,
+        "recoverTime": 3000,
         "freqBurst": {
           "none": {
             "durationTime": 0,
-            "unlimitPower": false,
             "lowLatency": false,
             "extraMargin": 0,
             "boost": 0
           },
           "tap": {
             "durationTime": 1000,
-            "unlimitPower": false,
             "lowLatency": false,
             "extraMargin": 0,
             "boost": 20
           },
           "swipe": {
             "durationTime": 500,
-            "unlimitPower": false,
             "lowLatency": false,
             "extraMargin": 10,
             "boost": 0
           },
           "gesture": {
             "durationTime": 1000,
-            "unlimitPower": false,
             "lowLatency": false,
             "extraMargin": 20,
             "boost": 20
           },
           "heavyload": {
             "durationTime": 2000,
-            "unlimitPower": true,
             "lowLatency": false,
             "extraMargin": 20,
             "boost": 0
           },
           "jank": {
             "durationTime": 100,
-            "unlimitPower": true,
             "lowLatency": true,
             "extraMargin": 0,
             "boost": 40
           },
           "bigJank": {
             "durationTime": 100,
-            "unlimitPower": true,
             "lowLatency": true,
             "extraMargin": 20,
             "boost": 40
           }
-        },
-        "heatControl": [
-          {
-            "cpuTemp": 90,
-            "maxPower": 3500
-          },
-          {
-            "cpuTemp": 95,
-            "maxPower": 2500
-          }
-        ]
+        }
       },
       "performance": {
-        "powerLimit": 2800,
+        "powerLimit": 3000,
         "perfMargin": [
+          23,
           25,
-          27,
-          30
+          27
         ],
         "upRateLatency": 600,
+        "overHeatTemp": 90,
+        "burstCapacity": 20000,
+        "recoverTime": 4000,
         "freqBurst": {
           "none": {
             "durationTime": 0,
-            "unlimitPower": false,
             "lowLatency": false,
             "extraMargin": 0,
             "boost": 0
           },
           "tap": {
             "durationTime": 1000,
-            "unlimitPower": false,
             "lowLatency": false,
             "extraMargin": 0,
             "boost": 20
           },
           "swipe": {
             "durationTime": 500,
-            "unlimitPower": false,
             "lowLatency": false,
             "extraMargin": 10,
             "boost": 0
           },
           "gesture": {
             "durationTime": 1000,
-            "unlimitPower": false,
             "lowLatency": false,
             "extraMargin": 20,
             "boost": 20
           },
           "heavyload": {
             "durationTime": 2000,
-            "unlimitPower": true,
             "lowLatency": false,
             "extraMargin": 20,
             "boost": 0
           },
           "jank": {
             "durationTime": 100,
-            "unlimitPower": true,
             "lowLatency": true,
             "extraMargin": 0,
             "boost": 40
           },
           "bigJank": {
-            "durationTime": 100,
-            "unlimitPower": true,
+            "durationTime": 500,
             "lowLatency": true,
             "extraMargin": 20,
             "boost": 40
           }
-        },
-        "heatControl": [
-          {
-            "cpuTemp": 85,
-            "maxPower": 5000
-          },
-          {
-            "cpuTemp": 90,
-            "maxPower": 4000
-          },
-          {
-            "cpuTemp": 95,
-            "maxPower": 3500
-          }
-        ]
+        }
       },
       "fast": {
         "powerLimit": 10000,
@@ -254,83 +212,73 @@
           30
         ],
         "upRateLatency": 400,
+        "overHeatTemp": 95,
+        "burstCapacity": 0,
+        "recoverTime": 0,
         "freqBurst": {
           "none": {
             "durationTime": 0,
-            "unlimitPower": false,
             "lowLatency": false,
             "extraMargin": 0,
             "boost": 0
           },
           "tap": {
             "durationTime": 1000,
-            "unlimitPower": false,
             "lowLatency": false,
             "extraMargin": 0,
             "boost": 20
           },
           "swipe": {
             "durationTime": 500,
-            "unlimitPower": false,
             "lowLatency": false,
             "extraMargin": 10,
             "boost": 0
           },
           "gesture": {
             "durationTime": 1000,
-            "unlimitPower": false,
             "lowLatency": false,
             "extraMargin": 20,
             "boost": 20
           },
           "heavyload": {
             "durationTime": 2000,
-            "unlimitPower": true,
             "lowLatency": false,
             "extraMargin": 20,
             "boost": 0
           },
           "jank": {
             "durationTime": 100,
-            "unlimitPower": true,
             "lowLatency": true,
             "extraMargin": 0,
             "boost": 40
           },
           "bigJank": {
-            "durationTime": 100,
-            "unlimitPower": true,
+            "durationTime": 500,
             "lowLatency": true,
             "extraMargin": 20,
             "boost": 40
           }
-        },
-        "heatControl": [
-          {
-            "cpuTemp": 95,
-            "maxPower": 3000
-          }
-        ]
+        }
       }
     }
   },
   "ThreadSchedOpt": {
     "enable": true,
-    "MainThread": {
+    "GameRenderThread": {
+      "cpus": [
+        7
+      ],
+      "nice": -20
+    },
+    "GameMainThread": {
       "cpus": [
         4,
         5,
         6
       ],
-      "nice": -10
+      "nice": -20
     },
-    "GameSingleThread": {
-      "cpus": [
-        7
-      ],
-      "nice": -16
-    },
-    "GameMultiThread": {
+    "GameProcessThread": {
       "cpus": [
         4,
         5,
@@ -344,7 +292,7 @@
         5,
         6
       ],
-      "nice": -10
+      "nice": -16
     },
     "MediaThread": {
       "cpus": [
@@ -356,7 +304,7 @@
         5,
         6
       ],
-      "nice": -16
+      "nice": -20
     },
     "WebViewThread": {
       "cpus": [
@@ -365,7 +313,7 @@
         6,
         7
       ],
-      "nice": -10
+      "nice": -16
     },
     "ProcessThread": {
       "cpus": [
@@ -373,9 +321,18 @@
         5,
         6
       ],
-      "nice": -8
+      "nice": -12
     },
-    "NonRealTimeThread": {
+    "CoProcessThread": {
+      "cpus": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "nice": -12
+    },
+    "JunkThread": {
       "cpus": [
         0,
         1,
@@ -384,7 +341,7 @@
       ],
       "nice": 0
     },
-    "OtherThread": {
+    "Initial": {
       "cpus": [
         0,
         1,
@@ -392,7 +349,8 @@
         3,
         4,
         5,
-        6
+        6,
+        7
       ],
       "nice": 0
     }
@@ -400,10 +358,10 @@
   "MtkGpuGovernor": {
     "enable": true,
     "params": {
-      "activeRateHz": 60,
+      "activeRateHz": 50,
       "idleRateHz": 30,
       "preferredFreq": [
-        350,
+        540,
         654,
         735
       ]
@@ -453,7 +411,7 @@
         },
         {
           "path": "/dev/cpuset/foreground/cpus",
-          "text": "0-6"
+          "text": "0-7"
         },
         {
           "path": "/dev/cpuset/top-app/cpus",
@@ -468,4 +426,4 @@
       "fastMode": []
     }
   }
-  }
+}
