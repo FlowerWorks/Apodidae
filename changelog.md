@@ -1,10 +1,10 @@
 ### What's new?
-- Update MTD1100 to V16
-- Update Helio G90T to V16
+- Update MTD1100 to Latest
+- Update MTD9000 to Latest
 ### Note
-- We may stop stop some support of SoC, PLEASE VOTE TO SHOW YOUR VIEWPOINT.
+- This commit is created by @XiaHuaBeiChiDiaoLe
 ---
-**Full Changelog**: https://github.com/naranyinyun/Apodidae/compare/V3.4.11...V4.0.1
+**Full Changelog**: https://github.com/naranyinyun/Apodidae/compare/V4.0.2...V4.0.3
 
 ### Download
 All the Mirrors are not available.
