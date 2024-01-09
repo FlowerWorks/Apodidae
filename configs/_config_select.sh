@@ -1,8 +1,4 @@
-ui_print "- CuprumTurbo Scheduler Module"
-ui_print "- Installing..."
-
-unzip -o "$ZIPFILE" -x 'META-INF/*' -d $MODPATH >&2
-chmod -R 0777 $MODPATH
+#!/system/bin/sh
 
 function get_taro_name() {
     cpu7_max_freq=$(cat /sys/devices/system/cpu/cpufreq/policy7/cpuinfo_max_freq)
@@ -75,6 +71,12 @@ function get_bengal_name() {
 
 function get_config_name() {
     case "$1" in
+    garnet*)
+        echo "sdm6gen1"
+        ;;
+    parrot*)
+        echo "sdm6gen1"
+        ;;
     pineapple*)
         echo "sdm8gen3"
         ;;
@@ -282,14 +284,3 @@ function get_config_name() {
 
 platform_name=$(getprop ro.board.platform)
 config_name=$(get_config_name $platform_name)
-
-if [ -e ${MODPATH}/configs/${config_name}.json ]; then
-    cp -f ${MODPATH}/configs/${config_name}.json ${MODPATH}/config.json
-    rm -rf ${MODPATH}/configs/
-
-    ui_print "- ${platform_name} is supported."
-    ui_print "- install finished."
-else
-    ui_print "- ${platform_name} is unsupported."
-    abort "- Abort!"
-fi
