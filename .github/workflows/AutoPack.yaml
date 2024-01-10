@@ -1,7 +1,7 @@
 name: AutoPack
 on: 
     push:
-        tags: "V*[!dev]"
+        tags: "V*"
 
 jobs:
     AutoPack:

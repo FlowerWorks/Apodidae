@@ -1,7 +1,7 @@
 name: AutoPack
 on: 
     push:
-        tags: "*.dev"
+        tags: "dev*"
 
 jobs:
     AutoPack:
