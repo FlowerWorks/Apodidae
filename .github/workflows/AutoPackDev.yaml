@@ -1,0 +1,44 @@
+name: AutoPack
+on: 
+    push:
+        tags: "*.dev"
+
+jobs:
+    AutoPack:
+        name: AutoPackDev
+        runs-on: ubuntu-latest
+        environment: Preview
+
+        steps:
+            - name: PackConfigs
+              run: |
+                mkdir ApodidaeWorkFlows
+                cd ApodidaeWorkFlows
+                git clone -b Configs https://github.com/naranyinyun/Apodidae.git ApodidaeConfigs
+                cd ApodidaeConfigs
+                tar -cvf ConfigsApodidae.tar --exclude=.git --exclude=Configs.tar  --exclude=.github *
+                cd ..
+                git clone -b Magisk https://github.com/naranyinyun/Apodidae.git ApodidaeModule
+                cp ApodidaeConfigs/{dimensity1000,dimensity1100,dimensity700,dimensity8100,dimensity820,dimensity900,dimensity9000,helio_g80,helio_g90,tegra_x1}.json ApodidaeModule/configs 2>/dev/null || :
+                cp ApodidaeConfigs/LICENSE ApodidaeModule/configs
+                cd ApodidaeModule
+                zip -r MagiskApodidae.zip * -x=".git"
+                cd ..
+                mv /home/runner/work/Apodidae/Apodidae/ApodidaeWorkFlows/ApodidaeModule/MagiskApodidae.zip /home/runner/work/Apodidae
+                mv /home/runner/work/Apodidae/Apodidae/ApodidaeWorkFlows/ApodidaeConfigs/ConfigsApodidae.tar /home/runner/work/Apodidae
+                mv /home/runner/work/Apodidae/Apodidae/ApodidaeWorkFlows/ApodidaeConfigs/changelog.md /home/runner/work/Apodidae
+                cd /home/runner/work/Apodidae
+            - name: CreateRelease
+              uses: softprops/action-gh-release@v0.1.15
+              with: 
+                draft: false
+                token: ${{secrets.DEVTOKEN}}
+                files: |
+                  /home/runner/work/Apodidae/MagiskApodidae.zip
+                  /home/runner/work/Apodidae/ConfigsApodidae.tar
+                body_path: /home/runner/work/Apodidae/changelog.dev.md
+                prerelease: true
+                name: Apodidae Dev Version Release
+
+                  
+            
