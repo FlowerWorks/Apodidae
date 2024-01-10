@@ -1,5 +1,5 @@
 ### What's new?
-- Update MTD8100 to Latest
+- Update Helio G90T to Latest
 ### Note
 Thanks to @Naranyinyun
 ---
