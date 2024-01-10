@@ -361,7 +361,7 @@
       "activeRateHz": 50,
       "idleRateHz": 30,
       "preferredFreq": [
-        417,
+        501,
         638,
         770
       ]
@@ -374,13 +374,13 @@
         "downRateDiff": 10
       },
       "balance": {
-        "maxFreq": 417,
+        "maxFreq": 501,
         "minFreq": 0,
         "upRateThres": 80,
         "downRateDiff": 10
       },
       "performance": {
-        "maxFreq": 638,
+        "maxFreq": 770,
         "minFreq": 0,
         "upRateThres": 70,
         "downRateDiff": 10

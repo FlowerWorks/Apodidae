@@ -1,7 +1,5 @@
 ### What's new?
-- Update MTD1100 to Latest
 - Update MTD9000 to Latest
-- Update MTD8100 to Latest
 ### Note
 Thanks to @XiaHuaBeiChiDiaoLe, @Naranyinyun
 ---
