@@ -1,4 +1,4 @@
-name: AutoPack
+name: AutoPackDev
 on: 
     push:
         tags: "dev*"
