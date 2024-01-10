@@ -36,7 +36,7 @@ jobs:
                 files: |
                   /home/runner/work/Apodidae/MagiskApodidae.zip
                   /home/runner/work/Apodidae/ConfigsApodidae.tar
-                body_path: /home/runner/work/Apodidae/changelog.dev.md
+                body_path: /home/runner/work/Apodidae/changelogDev.md
                 prerelease: true
                 name: Apodidae Dev Version Release
 
