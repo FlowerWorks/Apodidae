@@ -27,6 +27,7 @@ jobs:
                 mv /home/runner/work/Apodidae/Apodidae/ApodidaeWorkFlows/ApodidaeModule/MagiskApodidae.zip /home/runner/work/Apodidae
                 mv /home/runner/work/Apodidae/Apodidae/ApodidaeWorkFlows/ApodidaeConfigs/ConfigsApodidae.tar /home/runner/work/Apodidae
                 mv /home/runner/work/Apodidae/Apodidae/ApodidaeWorkFlows/ApodidaeConfigs/changelog.md /home/runner/work/Apodidae
+                mv /home/runner/work/Apodidae/Apodidae/ApodidaeWorkFlows/ApodidaeConfigs/changelogDev.md /home/runner/work/Apodidae
                 cd /home/runner/work/Apodidae
             - name: CreateRelease
               uses: softprops/action-gh-release@v0.1.15
