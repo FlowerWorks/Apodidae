@@ -1,6 +1,6 @@
 ![LATEST RELEASE](https://raw.githubusercontent.com/FlowerWorks/Apodidae/main/Blue%20Minimalist%20Business%20Pitch%20Deck%20Presentation.png)
 ### What's new?
-- Update Helio G90T to Latest
+- Update Helio G80 to Latest
 ### Contributors
 @Naranyinyun | Sunflower, Lavender Publish
 
