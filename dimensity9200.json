@@ -1,12 +1,12 @@
 {
-  "name": "Dimensity9200/9200+StrongX1",
+  "name": "Dimensity9200/9200+StrongX2",
   "author": "XiaHuaBeiChiDiaoLe",
   "configVersion": 9,
   "CpuGovernor": {
     "enable": true,
     "params": {
-      "activeRateHz": 50,
-      "idleRateHz": 30,
+      "activeRateHz": 55,
+      "idleRateHz": 35,
       "minFreqStep": 200
     },
     "policies": [
@@ -37,16 +37,16 @@
     ],
     "modes": {
       "powersave": {
-        "powerLimit": 2700,
+        "powerLimit": 2300,
         "perfMargin": [
           15,
           13,
           11
         ],
-        "upRateLatency": 800,
+        "upRateLatency": 700,
         "overHeatTemp": 80,
-        "burstCapacity": 8000,
-        "recoverTime": 2000,
+        "burstCapacity": 9000,
+        "recoverTime": 2500,
         "freqBurst": {
           "none": {
             "durationTime": 0,
@@ -93,16 +93,16 @@
         }
       },
       "balance": {
-        "powerLimit": 3700,
+        "powerLimit": 3300,
         "perfMargin": [
           17,
           19,
           21
         ],
-        "upRateLatency": 600,
+        "upRateLatency": 500,
         "overHeatTemp": 80,
-        "burstCapacity": 12000,
-        "recoverTime": 3000,
+        "burstCapacity": 13000,
+        "recoverTime": 3500,
         "freqBurst": {
           "none": {
             "durationTime": 0,
@@ -149,16 +149,16 @@
         }
       },
       "performance": {
-        "powerLimit": 5700,
+        "powerLimit": 5300,
         "perfMargin": [
           23,
           25,
           27
         ],
-        "upRateLatency": 400,
+        "upRateLatency": 300,
         "overHeatTemp": 90,
-        "burstCapacity": 20000,
-        "recoverTime": 4000,
+        "burstCapacity": 21000,
+        "recoverTime": 4500,
         "freqBurst": {
           "none": {
             "durationTime": 0,
@@ -358,25 +358,25 @@
   "MtkGpuGovernor": {
     "enable": true,
     "params": {
-      "activeRateHz": 60,
+      "activeRateHz": 50,
       "idleRateHz": 30,
       "preferredFreq": []
     },
     "modes": {
       "powersave": {
-        "maxFreq": 437,
+        "maxFreq": 460,
         "minFreq": 0,
         "upRateThres": 90,
         "downRateDiff": 10
       },
       "balance": {
-        "maxFreq": 550,
+        "maxFreq": 652,
         "minFreq": 0,
         "upRateThres": 80,
         "downRateDiff": 10
       },
       "performance": {
-        "maxFreq": 700,
+        "maxFreq": 856,
         "minFreq": 0,
         "upRateThres": 70,
         "downRateDiff": 10
