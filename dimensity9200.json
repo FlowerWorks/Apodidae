@@ -1,5 +1,5 @@
 {
-  "name": "Dimensity9200/9200+StrongX2",
+  "name": "Dimensity9200/9200+StrongX3",
   "author": "XiaHuaBeiChiDiaoLe",
   "configVersion": 9,
   "CpuGovernor": {
@@ -37,15 +37,15 @@
     ],
     "modes": {
       "powersave": {
-        "powerLimit": 2300,
+        "powerLimit": 2500,
         "perfMargin": [
+          17,
           15,
-          13,
-          11
+          13
         ],
         "upRateLatency": 700,
         "overHeatTemp": 80,
-        "burstCapacity": 9000,
+        "burstCapacity": 9500,
         "recoverTime": 2500,
         "freqBurst": {
           "none": {
@@ -93,15 +93,15 @@
         }
       },
       "balance": {
-        "powerLimit": 3300,
+        "powerLimit": 3500,
         "perfMargin": [
-          17,
           19,
-          21
+          21,
+          23
         ],
         "upRateLatency": 500,
         "overHeatTemp": 80,
-        "burstCapacity": 13000,
+        "burstCapacity": 13500,
         "recoverTime": 3500,
         "freqBurst": {
           "none": {
@@ -149,15 +149,15 @@
         }
       },
       "performance": {
-        "powerLimit": 5300,
+        "powerLimit": 5500,
         "perfMargin": [
-          23,
           25,
-          27
+          27,
+          29
         ],
         "upRateLatency": 300,
         "overHeatTemp": 90,
-        "burstCapacity": 21000,
+        "burstCapacity": 21500,
         "recoverTime": 4500,
         "freqBurst": {
           "none": {
